@@ -1,0 +1,15 @@
+
+#install postgresql
+brew install postgres
+initdb /usr/local/var/postgres
+mkdir -p ~/Library/LaunchAgents
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+gem install pg -- --with-pg-config=/usr/local/bin/pg_config
+
+#Create the vetsgovdemo-dev database
+#from the /config folder in the vetsgovdemo project
+rake db:create:development 
+
+#Create the vetsgovdev user (used by the dev version of the site)
+sudo -u <Your Username> createuser -s vetsgovdev 

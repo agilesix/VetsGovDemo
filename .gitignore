@@ -1,0 +1,14 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+/api/log/*
+
+# Ignore RubyMine dir
+.idea/
+.DS_Store
+www/tests/results
+api/tmp/pids/server.pid

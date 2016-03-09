@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Vendor
+@import "bourbon";
+@import "neat";
+@import "normalize-rails";
+
+
+@import "foundation/components/grid";
+@import "foundation/components/block-grid";
+//  @import "foundation/components/breadcrumbs";
+//  @import "foundation/components/buttons";
+@import "foundation/components/tabs";
+//  @import "foundation/components/type";
+@import "foundation/components/visibility";
+//  @import "foundation/components/forms";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/variables";
+
+
+// USDS
+@import "core/defaults";
+@import "core/base";
+@import "core/utilities";
+@import "core/variables";
+
+// @import "elements/typography";
+@import "elements/buttons";
+@import "elements/inputs";
+@import "elements/labels";
+@import "elements/table";
+//  @import "elements/list";
+@import "components/accordions";
+@import "components/forms";
+
+
+
+@import "va";

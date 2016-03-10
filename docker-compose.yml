@@ -6,7 +6,7 @@ db:
     - POSTGRES_USER=vetsgovdev
     - POSTGRES_DB=vetsgovdemo-dev
   ports:
-    - "6432:5432"
+    - "5432:5432"
 app:
   build: .
   environment:

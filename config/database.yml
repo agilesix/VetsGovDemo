@@ -1,7 +1,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  pool: 5
+  pool: 2
   timeout: 5000
   # Docker Compose adds in the app machine /etc/hosts and entry
   # that points to the container IP where "db" is running
@@ -11,13 +11,13 @@ default: &default
   #
   # It is that IP they put in <link_name>_PORT_5432_TCP_ADDR
   host: <%= ENV['DB_PORT_5432_TCP_ADDR'] || 'localhost' %>
-  port: <%= ENV['DB_5432_TCP_PORT'] || '5432' %>
+  port: <%= ENV['DB_PORT_5432_TCP_PORT'] || '5432' %>
 
 development:
+  <<: *default
   adapter: postgresql
   encoding: unicode
   database: vetsgovdemo-dev
-  pool: 5
   username: vetsgovdev
   password: vetsgovdev
 

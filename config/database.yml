@@ -1,18 +1,17 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
-#
-#default: &default
-#  adapter: sqlite3
-#  pool: 5
-#  timeout: 5000
-
-#default: &default
-#  adapter:postgresql
-#  encoding: unicode
-#  pool: 5 
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  # Docker Compose adds in the app machine /etc/hosts and entry
+  # that points to the container IP where "db" is running
+  #@see in docker-compose.yml under "app"
+  #     links:
+  #       - db
+  #
+  # It is that IP they put in <link_name>_PORT_5432_TCP_ADDR
+  host: <%= ENV['DB_PORT_5432_TCP_ADDR'] || 'localhost' %>
+  port: <%= ENV['DB_5432_TCP_PORT'] || '5432' %>
 
 development:
   adapter: postgresql

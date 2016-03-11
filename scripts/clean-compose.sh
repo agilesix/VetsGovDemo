@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 docker-compose stop
 docker-compose rm -v
 for i in  `docker ps -q`; do docker stop $i; done

@@ -12,6 +12,8 @@
 
     <meta content="https://www.vets.gov/assets/images/design/logo/og-image.jpg" property="og:image">
 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700|Roboto+Slab' rel='stylesheet' type='text/css'>
+
     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
 
     <%= stylesheet_link_tag    "application" %>
@@ -23,13 +25,25 @@
     <div class="header">
       <div class="row full">
         <div class="small-6 medium-4 columns">
-          <h1 role="banner"><a href="/">Vets.gov</a></h1>
+          <h1 role="banner"><a href="/">VetsGov Demo</a></h1>
         </div>
       </div>
     </div>
 
     <div id="content">
-     <%= yield %>
+      <div class="splash alternate">
+        <div class="row">
+          <div class="small-12 columns">
+          <ul class="breadcrumbs" role="menubar" aria-label="Primary">
+          <li class="active"><%= yield(:title) %></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main" role="main">
+        <div class="section">
+          <%= yield %>
+        </div>
+      </div>
     </div>
   </body>
 </html>

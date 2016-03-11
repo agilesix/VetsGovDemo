@@ -234,9 +234,9 @@ a:hover {text-decoration: underline; background: rgba(0,0,0,.1);}
     p {margin: .5em 0 1em 0;}
   }
 
-  @media #{$small} {padding: 1em 0;}
-  @media #{$medium} {padding: 2em 0;}
-  @media #{$large} {padding: 2.5em 0;}
+  //@media #{$small} {padding: 1em 0;}
+  //@media #{$medium} {padding: 2em 0;}
+  //@media #{$large} {padding: 2.5em 0;}
 
   span, h2 {
     padding: 0;

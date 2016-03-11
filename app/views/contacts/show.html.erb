@@ -4,6 +4,14 @@
   <strong>Email:</strong>
   <%= @contact.email %>
 </p>
+<p>
+  <strong>First Name:</strong>
+  <%= @contact.first_name %>
+</p>
+<p>
+  <strong>Last Name:</strong>
+  <%= @contact.last_name %>
+</p>
 
 <p>
   <strong>Message:</strong>
@@ -12,7 +20,7 @@
 
 <p>
   <strong>Senton:</strong>
-  <%= @contact.sentOn %>
+  <%= @contact.sent_on %>
 </p>
 
 <%= link_to 'Edit', edit_contact_path(@contact) %> |

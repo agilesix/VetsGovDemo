@@ -16,12 +16,23 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
+    <%= f.label :first_name, "First Name" %><br>
+    <%= f.text_field :first_name %>
+  </div>
+  <div class="field">
+    <%= f.label :last_name, "Last Name"%><br>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
     <%= f.label :message %><br>
     <%= f.text_field :message %>
   </div>
+  
+
   <div class="field">
-    <%= f.label :sentOn %><br>
-    <%= f.date_select :sentOn %>
+    <%= f.label :sent_on, "Sent On" %><br>
+    <%= f.date_select :sent_on %>
   </div>
   <div class="actions">
     <%= f.submit %>

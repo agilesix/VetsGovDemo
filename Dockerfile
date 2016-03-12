@@ -5,7 +5,6 @@ RUN apt-get update -y && \
   apt-get install -y \
   nodejs \
   postgresql-client \
-  sqlite3 \
   --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /usr/src/app

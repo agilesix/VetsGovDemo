@@ -46,9 +46,12 @@ GEM
     byebug (8.2.2)
     coderay (1.1.1)
     concurrent-ruby (1.0.1)
+    csv-mapper (0.5.1)
+      fastercsv
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
+    fastercsv (1.5.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -114,7 +117,7 @@ GEM
       activesupport (= 4.2.5.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (11.1.0)
+    rake (11.1.1)
     rdoc (4.2.2)
       json (~> 1.4)
     sass (3.4.21)
@@ -158,6 +161,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  csv-mapper
   jbuilder (~> 2.0)
   jquery-rails
   neat

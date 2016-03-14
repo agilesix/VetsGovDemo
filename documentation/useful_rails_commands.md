@@ -8,10 +8,11 @@ rails g scaffold PatientCareScore provider_number:integer:uniq hospital_name:str
 `rake db:migrate`
 
 ####  DataLoading
-##### Patient Care Scores
-
+##### Patient Care Scores (Local)
 ```
 export SSL_CERT_FILE=config/cacert.pem
 export RAILS_ENV=development
 rake etl:load_hcahps
 ```
+##### Patient Care Scores (Docker)
+`docker-compose run -d app rake etl:load_hcahps`

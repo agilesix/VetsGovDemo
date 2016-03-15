@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city: Centreville
+  state: AL
+  zip: 35042
+
+two:
+  city: Centereville
+  state: VA
+  zip: 20171
+
+three:
+  city: Boston
+  state: MA
+  zip: 43211
+
+four:
+  city: Benz
+  state: MA
+  zip: 43216
+
+five:
+  city: Reston
+  state: VA
+  zip: 20152

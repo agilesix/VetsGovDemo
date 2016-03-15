@@ -37,12 +37,12 @@ one:
   location: MyString
 
 two:
-  provider_number: 1
+  provider_number: 2
   hospital_name: MyString
   address: MyString
   city: MyString
   state: MyString
-  zip_code: 1
+  zip_code: 2
   county_name: MyString
   communication_with_nurses_achievement_points: 1
   communication_with_nurses_improvement_points: 1

@@ -21,6 +21,8 @@ namespace :etl do
       read_attributes_from_file
     end
     puts "Mapped data file\n"
+    places = Hash.new
+
     results.each do |rec|
       puts "processing #{rec.provider_number}"
       o = PatientCareScore.new(:hospital_name => rec.hospital_name)
@@ -57,8 +59,13 @@ namespace :etl do
       o.hcahps_base_score = transform_score(rec.hcahps_base_score)
       o.hcahps_consistency_score = transform_score(rec.hcahps_consistency_score)
       o.location = transform_score(rec.location)
+      places["#{o.city},#{o.state}"] = Place.new(:city => o.city, :state => o.state, :zip => o.zip_code)
       o.save()
     end
+    places.each do |key, place|
+      place.save()
+    end
+
     puts "Data load finished successfully"
   end
 

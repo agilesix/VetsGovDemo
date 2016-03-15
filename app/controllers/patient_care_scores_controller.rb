@@ -7,6 +7,17 @@ class PatientCareScoresController < ApplicationController
     @patient_care_scores = PatientCareScore.all
   end
 
+  #GET /patient_care_scores/cities
+  #GET /patient_care_scores/cities.json
+  def cities
+    places = []
+    q = params[:q]
+    if !q.blank? then
+      places = Place.where ("lower(city) like '%#{q.downcase}%'")
+    end
+    render json: places
+  end
+
   # GET /patient_care_scores/1
   # GET /patient_care_scores/1.json
   def show

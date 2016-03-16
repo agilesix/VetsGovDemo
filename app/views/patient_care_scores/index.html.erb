@@ -1,93 +1,41 @@
-<p id="notice"><%= notice %></p>
+<html>
+<head>
+  <title><%= content_for(:title, "Value Based Hospitals") %></title>
+  <%= stylesheet_link_tag "jquery-ui/autocomplete" %>
+</head>
+<body>
+<div class="primary ">
 
-<h1>Listing Patient Care Scores</h1>
+  <div class="row">
+    <div class="small-12 columns">
+      <h3>Find a Hospital in your area.</h3>
+      <p>Start entering the city in the text box below and pick on that matches.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <div class="usa-card nested">
+        <div class="usa-card-content nested">
 
-<table>
-  <thead>
-    <tr>
-      <th>Provider number</th>
-      <th>Hospital name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip code</th>
-      <th>County name</th>
-      <th>Communication with nurses achievement points</th>
-      <th>Communication with nurses improvement points</th>
-      <th>Communication with nurses dimension score</th>
-      <th>Communication with doctors achievement points</th>
-      <th>Communication with doctors improvement points</th>
-      <th>Communication with doctors dimension score</th>
-      <th>Responsiveness of hospital staff achievement points</th>
-      <th>Responsiveness of hospital staff improvement points</th>
-      <th>Responsiveness of hospital staff dimension score</th>
-      <th>Pain management achievement points</th>
-      <th>Pain management improvement points</th>
-      <th>Pain management dimension score</th>
-      <th>Communication about medicines achievement points</th>
-      <th>Communication about medicines improvement points</th>
-      <th>Communication about medicines dimension score</th>
-      <th>Hospital environment achievement points</th>
-      <th>Hospital environment improvement points</th>
-      <th>Hospital environment dimension score</th>
-      <th>Discharge information achievement points</th>
-      <th>Discharge information improvement points</th>
-      <th>Discharge information dimension score</th>
-      <th>Overall hospital achievement points</th>
-      <th>Overall hospital improvement points</th>
-      <th>Overall hospital dimension score</th>
-      <th>Hcahps base score</th>
-      <th>Hcahps consistency score</th>
-      <th>Location</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+          <form method="post">
+            <div class="form-group">
+              <input type="search" title="City" placeholder="City"
+                     name="q"
+                     id="city-search" class="ui-autocomplete-input"
+                     autocomplete="off"/>
+              <input type="hidden" value="<%= form_authenticity_token() %>" name="authenticity_token"/>
+              <div class="actions">
+                <button class="success small" id="search-btn">Find a Hospital Now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
-  <tbody>
-    <% @patient_care_scores.each do |patient_care_score| %>
-      <tr>
-        <td><%= patient_care_score.provider_number %></td>
-        <td><%= patient_care_score.hospital_name %></td>
-        <td><%= patient_care_score.address %></td>
-        <td><%= patient_care_score.city %></td>
-        <td><%= patient_care_score.state %></td>
-        <td><%= patient_care_score.zip_code %></td>
-        <td><%= patient_care_score.county_name %></td>
-        <td><%= patient_care_score.communication_with_nurses_achievement_points %></td>
-        <td><%= patient_care_score.communication_with_nurses_improvement_points %></td>
-        <td><%= patient_care_score.communication_with_nurses_dimension_score %></td>
-        <td><%= patient_care_score.communication_with_doctors_achievement_points %></td>
-        <td><%= patient_care_score.communication_with_doctors_improvement_points %></td>
-        <td><%= patient_care_score.communication_with_doctors_dimension_score %></td>
-        <td><%= patient_care_score.responsiveness_of_hospital_staff_achievement_points %></td>
-        <td><%= patient_care_score.responsiveness_of_hospital_staff_improvement_points %></td>
-        <td><%= patient_care_score.responsiveness_of_hospital_staff_dimension_score %></td>
-        <td><%= patient_care_score.pain_management_achievement_points %></td>
-        <td><%= patient_care_score.pain_management_improvement_points %></td>
-        <td><%= patient_care_score.pain_management_dimension_score %></td>
-        <td><%= patient_care_score.communication_about_medicines_achievement_points %></td>
-        <td><%= patient_care_score.communication_about_medicines_improvement_points %></td>
-        <td><%= patient_care_score.communication_about_medicines_dimension_score %></td>
-        <td><%= patient_care_score.hospital_environment_achievement_points %></td>
-        <td><%= patient_care_score.hospital_environment_improvement_points %></td>
-        <td><%= patient_care_score.hospital_environment_dimension_score %></td>
-        <td><%= patient_care_score.discharge_information_achievement_points %></td>
-        <td><%= patient_care_score.discharge_information_improvement_points %></td>
-        <td><%= patient_care_score.discharge_information_dimension_score %></td>
-        <td><%= patient_care_score.overall_hospital_achievement_points %></td>
-        <td><%= patient_care_score.overall_hospital_improvement_points %></td>
-        <td><%= patient_care_score.overall_hospital_dimension_score %></td>
-        <td><%= patient_care_score.hcahps_base_score %></td>
-        <td><%= patient_care_score.hcahps_consistency_score %></td>
-        <td><%= patient_care_score.location %></td>
-        <td><%= link_to 'Show', patient_care_score %></td>
-        <td><%= link_to 'Edit', edit_patient_care_score_path(patient_care_score) %></td>
-        <td><%= link_to 'Destroy', patient_care_score, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    </div>
 
-<br>
+  </div>
 
-<%= link_to 'New Patient care score', new_patient_care_score_path %>
+</div>
+</body>
+</html>

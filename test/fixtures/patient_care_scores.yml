@@ -1,73 +1,900 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  provider_number: 1
-  hospital_name: MyString
-  address: MyString
-  city: MyString
-  state: MyString
-  zip_code: 1
-  county_name: MyString
-  communication_with_nurses_achievement_points: 1
-  communication_with_nurses_improvement_points: 1
-  communication_with_nurses_dimension_score: 1
-  communication_with_doctors_achievement_points: 1
-  communication_with_doctors_improvement_points: 1
-  communication_with_doctors_dimension_score: 1
-  responsiveness_of_hospital_staff_achievement_points: 1
-  responsiveness_of_hospital_staff_improvement_points: 1
-  responsiveness_of_hospital_staff_dimension_score: 1
-  pain_management_achievement_points: 1
-  pain_management_improvement_points: 1
-  pain_management_dimension_score: 1
-  communication_about_medicines_achievement_points: 1
-  communication_about_medicines_improvement_points: 1
-  communication_about_medicines_dimension_score: 1
-  hospital_environment_achievement_points: 1
-  hospital_environment_improvement_points: 1
-  hospital_environment_dimension_score: 1
-  discharge_information_achievement_points: 1
-  discharge_information_improvement_points: 1
-  discharge_information_dimension_score: 1
-  overall_hospital_achievement_points: 1
-  overall_hospital_improvement_points: 1
-  overall_hospital_dimension_score: 1
-  hcahps_base_score: 1
-  hcahps_consistency_score: 1
-  location: MyString
-
+    id: 2787
+    provider_number: 490001
+    hospital_name: NORTON COMMUNITY HOSPITAL
+    address: 100  15TH ST NW
+    city: Norton
+    state: VA
+    zip_code: 24273
+    county_name: NORTON CITY
+    communication_with_nurses_achievement_points: 5
+    communication_with_nurses_improvement_points: 5
+    communication_with_nurses_dimension_score: 5
+    communication_with_doctors_achievement_points: 3
+    communication_with_doctors_improvement_points: 2
+    communication_with_doctors_dimension_score: 3
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 3
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 5
+    pain_management_improvement_points: 6
+    pain_management_dimension_score: 6
+    communication_about_medicines_achievement_points: 3
+    communication_about_medicines_improvement_points: 3
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 4
+    hospital_environment_improvement_points: 4
+    hospital_environment_dimension_score: 4
+    discharge_information_achievement_points: 1
+    discharge_information_improvement_points: 6
+    discharge_information_dimension_score: 6
+    overall_hospital_achievement_points: 2
+    overall_hospital_improvement_points: 3
+    overall_hospital_dimension_score: 3
+    hcahps_base_score: 33
+    hcahps_consistency_score: 20
+    location: 100 Loc
 two:
-  provider_number: 2
-  hospital_name: MyString
-  address: MyString
-  city: MyString
-  state: MyString
-  zip_code: 2
-  county_name: MyString
-  communication_with_nurses_achievement_points: 1
-  communication_with_nurses_improvement_points: 1
-  communication_with_nurses_dimension_score: 1
-  communication_with_doctors_achievement_points: 1
-  communication_with_doctors_improvement_points: 1
-  communication_with_doctors_dimension_score: 1
-  responsiveness_of_hospital_staff_achievement_points: 1
-  responsiveness_of_hospital_staff_improvement_points: 1
-  responsiveness_of_hospital_staff_dimension_score: 1
-  pain_management_achievement_points: 1
-  pain_management_improvement_points: 1
-  pain_management_dimension_score: 1
-  communication_about_medicines_achievement_points: 1
-  communication_about_medicines_improvement_points: 1
-  communication_about_medicines_dimension_score: 1
-  hospital_environment_achievement_points: 1
-  hospital_environment_improvement_points: 1
-  hospital_environment_dimension_score: 1
-  discharge_information_achievement_points: 1
-  discharge_information_improvement_points: 1
-  discharge_information_dimension_score: 1
-  overall_hospital_achievement_points: 1
-  overall_hospital_improvement_points: 1
-  overall_hospital_dimension_score: 1
-  hcahps_base_score: 1
-  hcahps_consistency_score: 1
-  location: MyString
+    id: 2788
+    provider_number: 490002
+    hospital_name: RUSSELL COUNTY MEDICAL CENTER
+    address: 58 CARROLL STREET
+    city: Lebanon
+    state: VA
+    zip_code: 24266
+    county_name: RUSSELL
+    communication_with_nurses_achievement_points: 2
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 2
+    communication_with_doctors_achievement_points: 1
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 1
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 1
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 2
+    discharge_information_improvement_points: 4
+    discharge_information_dimension_score: 4
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 1
+    hcahps_base_score: 12
+    hcahps_consistency_score: 15
+    location: 58 Loc
+three:
+    id: 2789
+    provider_number: 490004
+    hospital_name: SENTARA RMH MEDICAL CENTER
+    address: 2010 HEALTH CAMPUS DRIVE
+    city: Harrisonburg
+    state: VA
+    zip_code: 22801
+    county_name: HARRISONBURG CITY
+    communication_with_nurses_achievement_points: 1
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 1
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 1
+    communication_about_medicines_improvement_points: 2
+    communication_about_medicines_dimension_score: 2
+    hospital_environment_achievement_points: 1
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 4
+    discharge_information_improvement_points: 4
+    discharge_information_dimension_score: 4
+    overall_hospital_achievement_points: 2
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 2
+    hcahps_base_score: 10
+    hcahps_consistency_score: 16
+    location: 2010 Loc
+four:
+    id: 2790
+    provider_number: 490005
+    hospital_name: WINCHESTER MEDICAL CENTER
+    address: 1840 AMHERST ST
+    city: Winchester
+    state: VA
+    zip_code: 22601
+    county_name: WINCHESTER CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 0
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 0
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 2
+    discharge_information_improvement_points: 0
+    discharge_information_dimension_score: 2
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 2
+    hcahps_consistency_score: 9
+    location: 1840 Loc
+five:
+    id: 2791
+    provider_number: 490007
+    hospital_name: SENTARA NORFOLK GENERAL HOSPITAL
+    address: 600 GRESHAM DR
+    city: Norfolk
+    state: VA
+    zip_code: 23507
+    county_name: NORFOLK CITY
+    communication_with_nurses_achievement_points: 4
+    communication_with_nurses_improvement_points: 3
+    communication_with_nurses_dimension_score: 4
+    communication_with_doctors_achievement_points: 4
+    communication_with_doctors_improvement_points: 2
+    communication_with_doctors_dimension_score: 4
+    responsiveness_of_hospital_staff_achievement_points: 2
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 2
+    pain_management_achievement_points: 6
+    pain_management_improvement_points: 5
+    pain_management_dimension_score: 6
+    communication_about_medicines_achievement_points: 1
+    communication_about_medicines_improvement_points: 2
+    communication_about_medicines_dimension_score: 2
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 9
+    discharge_information_improvement_points: 8
+    discharge_information_dimension_score: 9
+    overall_hospital_achievement_points: 3
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 3
+    hcahps_base_score: 31
+    hcahps_consistency_score: 18
+    location: 600 loc
+six:
+    id: 2792
+    provider_number: 490009
+    hospital_name: UNIVERSITY OF VIRGINIA MEDICAL CENTER
+    address: JEFFERSON PARK AVE
+    city: Charlottesville
+    state: VA
+    zip_code: 22908
+    county_name: CHARLOTTESVILLE CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 0
+    communication_with_doctors_achievement_points: 1
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 0
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 8
+    discharge_information_improvement_points: 6
+    discharge_information_dimension_score: 8
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 9
+    hcahps_consistency_score: 10
+    location: JEFFERSON
+seven:
+    id: 2793
+    provider_number: 490011
+    hospital_name: BON SECOURS DEPAUL MEDICAL CENTER
+    address: 150 KINGSLEY LANE
+    city: Norfolk
+    state: VA
+    zip_code: 23505
+    county_name: NORFOLK CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 3
+    communication_with_nurses_dimension_score: 3
+    communication_with_doctors_achievement_points: 1
+    communication_with_doctors_improvement_points: 1
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 1
+    pain_management_dimension_score: 1
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 2
+    communication_about_medicines_dimension_score: 2
+    hospital_environment_achievement_points: 2
+    hospital_environment_improvement_points: 2
+    hospital_environment_dimension_score: 2
+    discharge_information_achievement_points: 5
+    discharge_information_improvement_points: 5
+    discharge_information_dimension_score: 5
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 1
+    hcahps_base_score: 16
+    hcahps_consistency_score: 17
+    location: 150
+eight:
+    id: 2794
+    provider_number: 490013
+    hospital_name: SENTARA HALIFAX REGIONAL HOSPITAL
+    address: 2204 WILBORN AVENUE
+    city: South Boston
+    state: VA
+    zip_code: 24592
+    county_name: HALIFAX
+    communication_with_nurses_achievement_points: 5
+    communication_with_nurses_improvement_points: 1
+    communication_with_nurses_dimension_score: 5
+    communication_with_doctors_achievement_points: 7
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 7
+    responsiveness_of_hospital_staff_achievement_points: 5
+    responsiveness_of_hospital_staff_improvement_points: 2
+    responsiveness_of_hospital_staff_dimension_score: 5
+    pain_management_achievement_points: 2
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 2
+    communication_about_medicines_achievement_points: 3
+    communication_about_medicines_improvement_points: 2
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 4
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 4
+    discharge_information_achievement_points: 2
+    discharge_information_improvement_points: 0
+    discharge_information_dimension_score: 2
+    overall_hospital_achievement_points: 1
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 1
+    hcahps_base_score: 29
+    hcahps_consistency_score: 20
+    location: 2204
+nine:
+    id: 2795
+    provider_number: 490017
+    hospital_name: BON SECOURS MARYVIEW MEDICAL CENTER
+    address: 3636 HIGH STREET
+    city: Portsmouth
+    state: VA
+    zip_code: 23707
+    county_name: PORTSMOUTH CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 2
+    communication_with_nurses_dimension_score: 2
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 1
+    pain_management_dimension_score: 1
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 1
+    communication_about_medicines_dimension_score: 1
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 7
+    discharge_information_improvement_points: 6
+    discharge_information_dimension_score: 7
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 1
+    hcahps_base_score: 13
+    hcahps_consistency_score: 16
+    location: 3636
+ten:
+    id: 2796
+    provider_number: 490018
+    hospital_name: AUGUSTA HEALTH
+    address: 78 MEDICAL CENTER DRIVE
+    city: Fishersville
+    state: VA
+    zip_code: 22939
+    county_name: AUGUSTA
+    communication_with_nurses_achievement_points: 2
+    communication_with_nurses_improvement_points: 4
+    communication_with_nurses_dimension_score: 4
+    communication_with_doctors_achievement_points: 4
+    communication_with_doctors_improvement_points: 3
+    communication_with_doctors_dimension_score: 4
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 4
+    responsiveness_of_hospital_staff_dimension_score: 4
+    pain_management_achievement_points: 7
+    pain_management_improvement_points: 8
+    pain_management_dimension_score: 8
+    communication_about_medicines_achievement_points: 3
+    communication_about_medicines_improvement_points: 3
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 6
+    discharge_information_improvement_points: 6
+    discharge_information_dimension_score: 6
+    overall_hospital_achievement_points: 3
+    overall_hospital_improvement_points: 4
+    overall_hospital_dimension_score: 4
+    hcahps_base_score: 34
+    hcahps_consistency_score: 17
+    location: 78
+eleven:
+    id: 2797
+    provider_number: 490019
+    hospital_name: CULPEPER COMMUNITY HOSPITAL
+    address: 501 SUNSET LANE
+    city: Culpeper
+    state: VA
+    zip_code: 22701
+    county_name: CULPEPER
+    communication_with_nurses_achievement_points: 6
+    communication_with_nurses_improvement_points: 5
+    communication_with_nurses_dimension_score: 6
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 2
+    communication_with_doctors_dimension_score: 2
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 3
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 1
+    pain_management_improvement_points: 3
+    pain_management_dimension_score: 3
+    communication_about_medicines_achievement_points: 4
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 4
+    hospital_environment_achievement_points: 2
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 2
+    discharge_information_achievement_points: 8
+    discharge_information_improvement_points: 7
+    discharge_information_dimension_score: 8
+    overall_hospital_achievement_points: 1
+    overall_hospital_improvement_points: 2
+    overall_hospital_dimension_score: 2
+    hcahps_base_score: 30
+    hcahps_consistency_score: 19
+    location: 501
+twelve:
+    id: 2798
+    provider_number: 490020
+    hospital_name: JOHN RANDOLPH MEDICAL CENTER
+    address: 411 WEST RANDOLPH ROAD
+    city: Hopewell
+    state: VA
+    zip_code: 23860
+    county_name: HOPEWELL CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 0
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 0
+    hospital_environment_achievement_points: 2
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 2
+    discharge_information_achievement_points: 3
+    discharge_information_improvement_points: 2
+    discharge_information_dimension_score: 3
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 5
+    hcahps_consistency_score: 14
+    location: 411
+thirteen:
+    id: 2799
+    provider_number: 490021
+    hospital_name: CENTRA  HEALTH, INC
+    address: 1920 ATHERHOLT ROAD
+    city: Lynchburg
+    state: VA
+    zip_code: 24501
+    county_name: LYNCHBURG CITY
+    communication_with_nurses_achievement_points: 4
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 4
+    communication_with_doctors_achievement_points: 3
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 3
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 2
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 2
+    communication_about_medicines_achievement_points: 3
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 1
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 6
+    discharge_information_improvement_points: 3
+    discharge_information_dimension_score: 6
+    overall_hospital_achievement_points: 2
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 2
+    hcahps_base_score: 21
+    hcahps_consistency_score: 19
+    location: 1920
+fourteen:
+    id: 2800
+    provider_number: 490022
+    hospital_name: MARY WASHINGTON HOSPITAL, INC
+    address: 1001 SAM PERRY BOULEVARD
+    city: Fredericksburg
+    state: VA
+    zip_code: 22401
+    county_name: FREDERICKSBURG CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 1
+    communication_with_nurses_dimension_score: 1
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 1
+    pain_management_dimension_score: 1
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 1
+    communication_about_medicines_dimension_score: 1
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 1
+    discharge_information_improvement_points: 2
+    discharge_information_dimension_score: 2
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 6
+    hcahps_consistency_score: 16
+    location: 1001
+fifteen:
+    id: 2801
+    provider_number: 490023
+    hospital_name: FAUQUIER HOSPITAL
+    address: 500 HOSPITAL DRIVE
+    city: Warrenton
+    state: VA
+    zip_code: 20186
+    county_name: FAUQUIER
+    communication_with_nurses_achievement_points: 1
+    communication_with_nurses_improvement_points: 1
+    communication_with_nurses_dimension_score: 1
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 1
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 0
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 1
+    pain_management_dimension_score: 1
+    communication_about_medicines_achievement_points: 1
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 1
+    hospital_environment_achievement_points: 1
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 5
+    discharge_information_improvement_points: 4
+    discharge_information_dimension_score: 5
+    overall_hospital_achievement_points: 2
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 2
+    hcahps_base_score: 12
+    hcahps_consistency_score: 18
+    location: 500
+sixteen:
+    id: 2802
+    provider_number: 490024
+    hospital_name: CARILION ROANOKE MEMORIAL HOSPITAL
+    address: 1906 BELLEVIEW AVENUE, SE
+    city: Roanoke
+    state: VA
+    zip_code: 24014
+    county_name: ROANOKE CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 0
+    communication_with_nurses_dimension_score: 0
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 2
+    communication_about_medicines_improvement_points: 1
+    communication_about_medicines_dimension_score: 2
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 3
+    discharge_information_improvement_points: 0
+    discharge_information_dimension_score: 3
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 9
+    hcahps_consistency_score: 16
+    location: 1906
+seventeen:
+    id: 2803
+    provider_number: 490032
+    hospital_name: MEDICAL COLLEGE OF VIRGINIA HOSPITALS
+    address: 1250 EAST MARSHALL STREET - BOX 980510
+    city: Richmond
+    state: VA
+    zip_code: 23298
+    county_name: RICHMOND CITY
+    communication_with_nurses_achievement_points: 3
+    communication_with_nurses_improvement_points: 2
+    communication_with_nurses_dimension_score: 3
+    communication_with_doctors_achievement_points: 2
+    communication_with_doctors_improvement_points: 1
+    communication_with_doctors_dimension_score: 2
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 4
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 4
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 9
+    discharge_information_improvement_points: 7
+    discharge_information_dimension_score: 9
+    overall_hospital_achievement_points: 3
+    overall_hospital_improvement_points: 2
+    overall_hospital_dimension_score: 3
+    hcahps_base_score: 22
+    hcahps_consistency_score: 14
+    location: 1250
+eighteen:
+    id: 2804
+    provider_number: 490033
+    hospital_name: WARREN MEMORIAL HOSPITAL
+    address: 1000 NORTH SHENANDOAH AVE
+    city: Front Royal
+    state: VA
+    zip_code: 22630
+    county_name: WARREN
+    communication_with_nurses_achievement_points: 5
+    communication_with_nurses_improvement_points: 5
+    communication_with_nurses_dimension_score: 5
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 1
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 1
+    responsiveness_of_hospital_staff_improvement_points: 3
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 2
+    pain_management_dimension_score: 2
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 0
+    communication_about_medicines_dimension_score: 0
+    hospital_environment_achievement_points: 2
+    hospital_environment_improvement_points: 2
+    hospital_environment_dimension_score: 2
+    discharge_information_achievement_points: 0
+    discharge_information_improvement_points: 0
+    discharge_information_dimension_score: 0
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 13
+    hcahps_consistency_score: 16
+    location: 1000
+nineteen:
+    id: 2805
+    provider_number: 490037
+    hospital_name: RIVERSIDE SHORE MEMORIAL HOSPITAL
+    address: 9507 HOSPITAL AVENUE
+    city: Nassawadox
+    state: VA
+    zip_code: 23413
+    county_name: NORTHAMPTON
+    communication_with_nurses_achievement_points: 1
+    communication_with_nurses_improvement_points: 3
+    communication_with_nurses_dimension_score: 3
+    communication_with_doctors_achievement_points: 2
+    communication_with_doctors_improvement_points: 2
+    communication_with_doctors_dimension_score: 2
+    responsiveness_of_hospital_staff_achievement_points: 1
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 2
+    pain_management_improvement_points: 4
+    pain_management_dimension_score: 4
+    communication_about_medicines_achievement_points: 4
+    communication_about_medicines_improvement_points: 5
+    communication_about_medicines_dimension_score: 5
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 0
+    discharge_information_improvement_points: 4
+    discharge_information_dimension_score: 4
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 1
+    hcahps_base_score: 21
+    hcahps_consistency_score: 12
+    location: 9507
+twenty:
+    id: 2806
+    provider_number: 490038
+    hospital_name: SMYTH COUNTY COMMUNITY HOSPITAL
+    address: 245 MEDICAL PARK DRIVE
+    city: Marion
+    state: VA
+    zip_code: 24354
+    county_name: SMYTH
+    communication_with_nurses_achievement_points: 6
+    communication_with_nurses_improvement_points: 6
+    communication_with_nurses_dimension_score: 6
+    communication_with_doctors_achievement_points: 5
+    communication_with_doctors_improvement_points: 4
+    communication_with_doctors_dimension_score: 5
+    responsiveness_of_hospital_staff_achievement_points: 5
+    responsiveness_of_hospital_staff_improvement_points: 5
+    responsiveness_of_hospital_staff_dimension_score: 5
+    pain_management_achievement_points: 6
+    pain_management_improvement_points: 5
+    pain_management_dimension_score: 6
+    communication_about_medicines_achievement_points: 4
+    communication_about_medicines_improvement_points: 5
+    communication_about_medicines_dimension_score: 5
+    hospital_environment_achievement_points: 5
+    hospital_environment_improvement_points: 5
+    hospital_environment_dimension_score: 5
+    discharge_information_achievement_points: 6
+    discharge_information_improvement_points: 7
+    discharge_information_dimension_score: 7
+    overall_hospital_achievement_points: 2
+    overall_hospital_improvement_points: 4
+    overall_hospital_dimension_score: 4
+    hcahps_base_score: 43
+    hcahps_consistency_score: 20
+    location: 245
+twentyone:
+    id: 2807
+    provider_number: 490040
+    hospital_name: INOVA ALEXANDRIA HOSPITAL
+    address: 4320 SEMINARY RD
+    city: Alexandria
+    state: VA
+    zip_code: 22304
+    county_name: ALEXANDRIA CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 3
+    communication_with_nurses_dimension_score: 3
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 0
+    communication_with_doctors_dimension_score: 0
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 2
+    pain_management_dimension_score: 2
+    communication_about_medicines_achievement_points: 2
+    communication_about_medicines_improvement_points: 4
+    communication_about_medicines_dimension_score: 4
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 0
+    discharge_information_improvement_points: 4
+    discharge_information_dimension_score: 4
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 0
+    hcahps_base_score: 15
+    hcahps_consistency_score: 13
+    location: 4320
+twentytwo:
+    id: 2808
+    provider_number: 490041
+    hospital_name: MARY IMMACULATE HOSPITAL
+    address: 2 BERNARDINE DRIVE
+    city: Newport News
+    state: VA
+    zip_code: 23602
+    county_name: NEWPORT NEWS CITY
+    communication_with_nurses_achievement_points: 0
+    communication_with_nurses_improvement_points: 3
+    communication_with_nurses_dimension_score: 3
+    communication_with_doctors_achievement_points: 2
+    communication_with_doctors_improvement_points: 2
+    communication_with_doctors_dimension_score: 2
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 2
+    responsiveness_of_hospital_staff_dimension_score: 2
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 2
+    pain_management_dimension_score: 2
+    communication_about_medicines_achievement_points: 0
+    communication_about_medicines_improvement_points: 3
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 1
+    hospital_environment_dimension_score: 1
+    discharge_information_achievement_points: 8
+    discharge_information_improvement_points: 7
+    discharge_information_dimension_score: 8
+    overall_hospital_achievement_points: 0
+    overall_hospital_improvement_points: 2
+    overall_hospital_dimension_score: 2
+    hcahps_base_score: 23
+    hcahps_consistency_score: 16
+    location: 2
+twentythree:
+    id: 2809
+    provider_number: 490042
+    hospital_name: CARILION NEW RIVER VALLEY MEDICAL CENTER
+    address: 2900 LAMB CIRCLE
+    city: Christiansburg
+    state: VA
+    zip_code: 24073
+    county_name: MONTGOMERY
+    communication_with_nurses_achievement_points: 4
+    communication_with_nurses_improvement_points: 2
+    communication_with_nurses_dimension_score: 4
+    communication_with_doctors_achievement_points: 2
+    communication_with_doctors_improvement_points: 3
+    communication_with_doctors_dimension_score: 3
+    responsiveness_of_hospital_staff_achievement_points: 3
+    responsiveness_of_hospital_staff_improvement_points: 0
+    responsiveness_of_hospital_staff_dimension_score: 3
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 1
+    pain_management_dimension_score: 1
+    communication_about_medicines_achievement_points: 4
+    communication_about_medicines_improvement_points: 4
+    communication_about_medicines_dimension_score: 4
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 0
+    hospital_environment_dimension_score: 0
+    discharge_information_achievement_points: 4
+    discharge_information_improvement_points: 3
+    discharge_information_dimension_score: 4
+    overall_hospital_achievement_points: 3
+    overall_hospital_improvement_points: 0
+    overall_hospital_dimension_score: 3
+    hcahps_base_score: 22
+    hcahps_consistency_score: 19
+    location: 2900
+twentyfour:
+    id: 2810
+    provider_number: 490043
+    hospital_name: INOVA LOUDOUN HOSPITAL
+    address: 44045 RIVERSIDE PARKWAY
+    city: Leesburg
+    state: VA
+    zip_code: 20176
+    county_name: LOUDOUN
+    communication_with_nurses_achievement_points: 5
+    communication_with_nurses_improvement_points: 5
+    communication_with_nurses_dimension_score: 5
+    communication_with_doctors_achievement_points: 0
+    communication_with_doctors_improvement_points: 1
+    communication_with_doctors_dimension_score: 1
+    responsiveness_of_hospital_staff_achievement_points: 0
+    responsiveness_of_hospital_staff_improvement_points: 1
+    responsiveness_of_hospital_staff_dimension_score: 1
+    pain_management_achievement_points: 0
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 0
+    communication_about_medicines_achievement_points: 2
+    communication_about_medicines_improvement_points: 3
+    communication_about_medicines_dimension_score: 3
+    hospital_environment_achievement_points: 0
+    hospital_environment_improvement_points: 2
+    hospital_environment_dimension_score: 2
+    discharge_information_achievement_points: 9
+    discharge_information_improvement_points: 9
+    discharge_information_dimension_score: 9
+    overall_hospital_achievement_points: 3
+    overall_hospital_improvement_points: 3
+    overall_hospital_dimension_score: 3
+    hcahps_base_score: 24
+    hcahps_consistency_score: 16
+    location: 44045
+twentyfive:
+    id: 2811
+    provider_number: 490044
+    hospital_name: SENTARA OBICI HOSPITAL
+    address: 2800 GODWIN BOULEVARD
+    city: Suffolk
+    state: VA
+    zip_code: 23434
+    county_name: SUFFOLK CITY
+    communication_with_nurses_achievement_points: 4
+    communication_with_nurses_improvement_points: 1
+    communication_with_nurses_dimension_score: 4
+    communication_with_doctors_achievement_points: 5
+    communication_with_doctors_improvement_points: 4
+    communication_with_doctors_dimension_score: 5
+    responsiveness_of_hospital_staff_achievement_points: 4
+    responsiveness_of_hospital_staff_improvement_points: 2
+    responsiveness_of_hospital_staff_dimension_score: 4
+    pain_management_achievement_points: 4
+    pain_management_improvement_points: 0
+    pain_management_dimension_score: 4
+    communication_about_medicines_achievement_points: 5
+    communication_about_medicines_improvement_points: 4
+    communication_about_medicines_dimension_score: 5
+    hospital_environment_achievement_points: 4
+    hospital_environment_improvement_points: 2
+    hospital_environment_dimension_score: 4
+    discharge_information_achievement_points: 10
+    discharge_information_improvement_points: 9
+    discharge_information_dimension_score: 10
+    overall_hospital_achievement_points: 5
+    overall_hospital_improvement_points: 1
+    overall_hospital_dimension_score: 5
+    hcahps_base_score: 41
+    hcahps_consistency_score: 20
+    location: 2800

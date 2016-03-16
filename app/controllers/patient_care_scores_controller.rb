@@ -4,16 +4,25 @@ class PatientCareScoresController < ApplicationController
   # GET /patient_care_scores
   # GET /patient_care_scores.json
   def index
-    @patient_care_scores = PatientCareScore.all
+    @patient_care_scores = []
   end
 
   #GET /patient_care_scores/cities
   #GET /patient_care_scores/cities.json
   def cities
+    logger.info "Searching Cities with term = #{params[:term]}"
     places = []
-    q = params[:q]
+    q = params[:term]
     if !q.blank? then
-      places = Place.where ("lower(city) like '%#{q.downcase}%'")
+      list = Place.where ("lower(city) like '%#{q.downcase}%'")
+      list.each do |item|
+        value = "#{item.city}, #{item.state}"
+        place = Hash.new
+        place[:label] = value
+        place[:value] = value
+        places.append place
+      end
+      logger.info "Found #{places.length} cities"
     end
     render json: places
   end
@@ -35,17 +44,16 @@ class PatientCareScoresController < ApplicationController
   # POST /patient_care_scores
   # POST /patient_care_scores.json
   def create
-    @patient_care_score = PatientCareScore.new(patient_care_score_params)
+    logger.info "Searching hospitals near #{params[:q]}"
+    city_and_state = params[:q]
+    city = city_and_state.split(',')[0].strip
+    state = city_and_state.split(',')[1].strip
 
-    respond_to do |format|
-      if @patient_care_score.save
-        format.html { redirect_to @patient_care_score, notice: 'Patient care score was successfully created.' }
-        format.json { render :show, status: :created, location: @patient_care_score }
-      else
-        format.html { render :new }
-        format.json { render json: @patient_care_score.errors, status: :unprocessable_entity }
-      end
-    end
+    hospital = PatientCareScore.find_by_city_and_state(city, state)
+    the_zip_code = hospital.zip_code
+    nearby_zips = view_context.zip_codes_nearby(the_zip_code)
+    hospitals = PatientCareScore.where(zip_code: nearby_zips.keys).sort_by { |h| nearby_zips.keys.index(h.zip_code) }
+    @patient_care_scores = hospitals.slice(0, 5)
   end
 
   # PATCH/PUT /patient_care_scores/1

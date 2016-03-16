@@ -1,8 +1,16 @@
 require 'test_helper'
 
 class PatientCareScoresControllerTest < ActionController::TestCase
+  include PatientCareScoresHelper
+
   setup do
     @patient_care_score = patient_care_scores(:one)
+  end
+
+  test "find zipcode near my home" do
+    zips = zip_codes_nearby(20170, 2)
+    puts zips
+    assert_equal 7, zips.length
   end
 
   test "should get index" do
@@ -22,13 +30,13 @@ class PatientCareScoresControllerTest < ActionController::TestCase
   end
 
   test "should get cities for valid input" do
-    get :cities, q: 'ton'
+    get :cities, term: 'ton'
     puts response.body
     assert_match /Boston/, response.body
   end
 
   test "should get return emtpy json for invalid cities input" do
-    get :cities, q: ''
+    get :cities, term: ''
     puts response.body
     assert_equal '[]', response.body
   end

@@ -1,0 +1,18 @@
+#### Scaffold
+##### PatientCareScore
+```
+rails g scaffold PatientCareScore provider_number:integer:uniq hospital_name:string:index address:string city:string:index state:string:index zip_code:integer county_name:string communication_with_nurses_achievement_points:integer communication_with_nurses_improvement_points:integer communication_with_nurses_dimension_score:integer communication_with_doctors_achievement_points:integer communication_with_doctors_improvement_points:integer communication_with_doctors_dimension_score:integer responsiveness_of_hospital_staff_achievement_points:integer responsiveness_of_hospital_staff_improvement_points:integer responsiveness_of_hospital_staff_dimension_score:integer pain_management_achievement_points:integer  pain_management_improvement_points:integer pain_management_dimension_score:integer communication_about_medicines_achievement_points:integer communication_about_medicines_improvement_points:integer communication_about_medicines_dimension_score:integer hospital_environment_achievement_points:integer hospital_environment_improvement_points:integer hospital_environment_dimension_score:integer discharge_information_achievement_points:integer discharge_information_improvement_points:integer discharge_information_dimension_score:integer overall_hospital_achievement_points:integer overall_hospital_improvement_points:integer overall_hospital_dimension_score:integer hcahps_base_score:integer:index hcahps_consistency_score:integer:index location:string
+```
+#### Database
+##### Migrate
+`rake db:migrate`
+
+####  DataLoading
+##### Patient Care Scores (Local)
+```
+export SSL_CERT_FILE=config/cacert.pem
+export RAILS_ENV=development
+rake etl:load_hcahps
+```
+##### Patient Care Scores (Docker)
+`docker-compose run -d app rake etl:load_hcahps`

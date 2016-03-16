@@ -33,6 +33,10 @@ gem 'neat'
 #gem 'foundation-rails'
 gem 'normalize-rails'
 
+#Puma webserver
+gem 'puma'
+
+gem 'csv-mapper'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

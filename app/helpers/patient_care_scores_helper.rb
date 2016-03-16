@@ -11,7 +11,7 @@ module PatientCareScoresHelper
   # The free api key has 1 minute 1 request restriction, so we iterate X times in search of zip codes
   #
   def zip_codes_nearby (a_zipcode, radius = RADIUS)
-    nearby_zips = {}
+    nearby_zips = Hash.new
     API_KEYS.each do |api_key|
 
       url = "#{ZIPCODE_API_URL}/#{api_key}/radius.json/#{a_zipcode}/#{radius}/mile"
@@ -21,10 +21,17 @@ module PatientCareScoresHelper
           the_zip_code = zip['zip_code'].to_i
           nearby_zips[the_zip_code] = zip['distance']
         end
-        return nearby_zips.sort_by { |key, value| value }
+        Rails.logger.info "Zip Code Hash: #{nearby_zips}"
+        Rails.logger.info "Zip Code Hash [#{a_zipcode}]: #{nearby_zips[a_zipcode]}"
+        sorted_list = nearby_zips.sort_by { |key, value| value }
+        sorted_hash = Hash.new
+        sorted_list.each do |entry|
+          sorted_hash[entry[0]] = entry[1]
+        end
+        return sorted_hash
       end
     end
-    return nearby_zips.sort_by { |key, value| value }
+    return nearby_zips
   end
 
   def find_zips(url)

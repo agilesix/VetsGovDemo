@@ -30,6 +30,7 @@ class PatientCareScoresController < ApplicationController
   # GET /patient_care_scores/1
   # GET /patient_care_scores/1.json
   def show
+    do_grading(@patient_care_score)
   end
 
   # GET /patient_care_scores/new

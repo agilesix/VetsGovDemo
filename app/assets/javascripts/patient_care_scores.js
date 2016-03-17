@@ -1,4 +1,5 @@
 var pcs = {
+    score: 0,
     colors: [],
     gray: "#E5E5E5",
     resizeCanvas: function (canvas) {
@@ -6,6 +7,8 @@ var pcs = {
         canvas.height = pcs.containerHeight;
         canvas.style.width = pcs.containerWidth + 'px';
         canvas.style.height = pcs.containerHeight + 'px';
+        pcs.cellWidth = Math.floor(pcs.containerWidth / 100); //width of a cell
+        console.log("setting canvas size [width : " + pcs.containerWidth + ", height:" + pcs.containerHeight + "]");
     }
 }
 
@@ -141,6 +144,11 @@ $(function () {
             e.preventDefault();
         }
     });
+
+    $(window).resize(function () {
+        console.log("window resized");
+        drawRatingGraph($('div.rbar-container').width(), $('#rbar').height());
+    });
 });
 
 
@@ -195,13 +203,18 @@ function roundRect(ctx, p, x, y, width, height, radius, fill, stroke) {
 }
 
 
-function drawRatingGraph(r) {
-    var p = Math.floor(r);
+function drawRatingGraph(iw, ih) {
+    console.log("drawRatingGraph")
+    var p = pcs.score;
     p = 78;
-    pcs.containerWidth = Math.floor($('#rbar').width());
-    pcs.containerHeight = Math.floor($('#rbar').height());
-    pcs.cellWidth = Math.floor(pcs.containerWidth / 100); //width of a cell
+    pcs.containerWidth = Math.floor(iw);
+    pcs.containerHeight = Math.floor(ih);
 
+
+
+
+    var canvas = $('#rbar')[0];
+    pcs.resizeCanvas(canvas);
 
     var x = 0;
     var y = Math.floor(pcs.containerHeight / 2) + Math.floor(pcs.containerHeight / 6);
@@ -209,12 +222,9 @@ function drawRatingGraph(r) {
     var h = 8;
     var padding = 15;
 
-
-    var canvas = $('#rbar')[0];
-    pcs.resizeCanvas(canvas);
-
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, pcs.containerWidth, pcs.containerHeight);
 
         for (var i = 0; i < 100; i++) {
 
@@ -267,3 +277,4 @@ function drawRatingGraph(r) {
     }
 
 }
+

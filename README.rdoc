@@ -21,6 +21,36 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* Running this site in Docker:
+
+ 1. Install docker https://www.docker.com/products/docker-toolbox
+ 2. Open Docker Quick Start Terminal
+ 3. docker-machine ls (this will give the virtual box docker machine running)
+ 4. docker-machine active (this will give the active machine instance)
+ 5. docker-machine ip (this will give the ip address of the machine)
+
+6. Then from the VetsGovDemo base directory, run the following script
+Bijus-MBP:VetsGovDemo bijujoseph$ pwd
+
+/Users/bijujoseph/workspace/VET/projects/VetsGovDemo
+
+Bijus-MBP:VetsGovDemo bijujoseph$ ./scripts/start-compose.sh
+
+7. To access the website 
+
+  http://<ip-of-docker-machine>:3000/contacts
+
+8. If you want to stop docker instances 
+
+ Bijus-MBP:VetsGovDemo bijujoseph$ ./scripts/clean-compose.sh
+
+
+
+Note:- After computer wakes-up from sleep mode, docker will not respond. So go to VirtualBox console and "Close" with "Save state" option. The Open Docker Quick Start Terminal to reactivate the docker machine. 
+
+Via PgAdmin if you would like to connect to the Postgresql instance running inside container use the IP (docker-machine ip), and port 5432. The username/password etc is same as what we have in database.yml
+
+
 * ...
 
 

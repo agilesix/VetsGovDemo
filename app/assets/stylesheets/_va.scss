@@ -169,25 +169,25 @@ figcaption {
 h1 {
   color: #fff;
   a {
-    //text-indent: 180%;
+    text-indent: 180%;
     white-space: nowrap;
     overflow: hidden;
     display: block;
     color: #fff;
-    background: $color-primary-darkest url(../images/design/logo/logo.png) top left no-repeat;
+    background: $color-primary-darkest url(../assets/design/logo/logo.png) top left no-repeat;
     width: 180px;
     height: 30px;
     background-size: contain;
     border-bottom: none;
     text-decoration: none;
-    &:hover, &:active, &:focus {background: $color-primary-darkest url(../images/design/logo/logo-hover.png) top left no-repeat; background-size: contain;}
+    &:hover, &:active, &:focus {background: $color-primary-darkest url(../assets/design/logo/logo-hover.png) top left no-repeat; background-size: contain;}
   @media #{$small} {
-    background: $color-primary-darkest url(../images/design/logo/logo.png) top left no-repeat;
+    background: $color-primary-darkest url(../assets/design/logo/logo.png) top left no-repeat;
     width: 263px;
     height: 50px;
     background-size: contain;
     &:hover {
-      background: $color-primary-darkest url(../images/design/logo/logo-hover.png) top left no-repeat;
+      background: $color-primary-darkest url(../assets/design/logo/logo-hover.png) top left no-repeat;
       background-size: contain;
     }
   }
@@ -1008,7 +1008,7 @@ background:#fff url(../assets/design/background/thread.png) top left no-repeat;
 background-size: contain;
 
   h1 a {
-
+    text-indent: 180%;
     white-space: nowrap;
     overflow: hidden;
     display: block;
@@ -1016,10 +1016,10 @@ background-size: contain;
     text-decoration: none;
     width: 180px;
     height: 30px;
-    background: #fff url(../images/design/logo/logo-alt.png) top left no-repeat;
+    background: #fff url(../assets/design/logo/logo-alt.png) top left no-repeat;
     background-size: contain;
     &:hover, &:active, &:focus {
-      background: #fff url(../images/design/logo/logo-alt-hover.png) top left no-repeat;
+      background: #fff url(../assets/design/logo/logo-alt-hover.png) top left no-repeat;
       border-bottom: none;
       background-size: contain;
       text-decoration: none;}
@@ -1027,10 +1027,10 @@ background-size: contain;
       @media #{$small} {
         width: 263px;
         height: 50px;
-        background: #fff url(../images/design/logo/logo-alt.png) top left no-repeat;
+        background: #fff url(../assets/design/logo/logo-alt.png) top left no-repeat;
         background-size: contain;
         &:hover {
-          background: #fff url(../images/design/logo/logo-alt-hover.png) top left no-repeat;
+          background: #fff url(../assets/design/logo/logo-alt-hover.png) top left no-repeat;
           background-size: contain;
         }
       }
@@ -1044,7 +1044,7 @@ background-size: contain;
 #experience.Designing .splash {
     padding: 4em 0;
     @media #{$small} {padding: 6.1em 0;}
-    background: url(../images/content/posts/utah.jpg) top center no-repeat;
+    background: url(../assets/content/posts/utah.jpg) top center no-repeat;
     background-size: cover;
     margin-bottom: 1em;
 }
@@ -1052,7 +1052,7 @@ background-size: contain;
 #experience.When .splash {
     padding: 4em 0;
     @media #{$small} {padding: 6.1em 0;}
-    background: url(../images/content/posts/exit.jpg) 50% 50% no-repeat;
+    background: url(../assets/content/posts/exit.jpg) 50% 50% no-repeat;
     background-size: cover;
     margin-bottom: 1em;
 }
@@ -1282,11 +1282,11 @@ figure {
   .footer-logo a {
     display: none;
     @media #{$medium} {padding: 0; display: block;}
-    @media #{$medium} {background:url(../images/design/logo/logo.png) 102% 102% no-repeat!important;border-bottom:0!important;width: 112px; height:32px; display: block;background-size: 160px!important; text-indent:180%; overflow:hidden}
+    @media #{$medium} {background:url(../assets/design/logo/logo.png) 102% 102% no-repeat!important;border-bottom:0!important;width: 112px; height:32px; display: block;background-size: 160px!important; text-indent:180%; overflow:hidden}
   }
 
   .footer-seal {
-    background:url(../images/design/sprites/sprite.png)  no-repeat 0 -23px;
+    background:url(../assets/design/sprites/sprite.png)  no-repeat 0 -23px;
     background-size: 215px 72px;
 	  width: 215px;
 	  height: 49px;
@@ -1403,7 +1403,7 @@ li {
 
 
 a.facebook {
-	background: url('../images/design/sprites/sprite.png') no-repeat -22px 0;
+	background: url('../assets/design/sprites/sprite.png') no-repeat -22px 0;
   background-size: 215px 72px;
   width: 17px;
   height: 17px;
@@ -1412,7 +1412,7 @@ a.facebook {
 }
 
 a.twitter {
-	background: url('../images/design/sprites/sprite.png') no-repeat 0 0;
+	background: url('../assets/design/sprites/sprite.png') no-repeat 0 0;
   background-size: 215px 72px;
 	width: 20px;
 	height: 16px;
@@ -1503,7 +1503,7 @@ a.twitter {
     overflow: hidden;
     text-decoration: underline;
     span.icon {
-      background: url('../images/design/sprites/sprite.png') no-repeat -43px 0;
+      background: url('../assets/design/sprites/sprite.png') no-repeat -43px 0;
       background-size: 215px 72px;
       display: inline-block;
       width: 19px;
@@ -2017,7 +2017,7 @@ li {
   &.step.nine
    {
     &:before {
-      background:white url(../images/icons/SVG/loop2.svg)center center no-repeat;
+      background:white url(../assets/icons/SVG/loop2.svg)center center no-repeat;
       display:inline-block;
       width:3.4em;
       height:2.2em;
@@ -2088,7 +2088,7 @@ li {
     }
   }
   .graphic {
-    background: url(../images/design/playbook/discover-process.svg) 40% center no-repeat;
+    background: url(../assets/design/playbook/discover-process.svg) 40% center no-repeat;
   }
 }
 
@@ -2108,7 +2108,7 @@ li {
     }
   }
   .graphic {
-    background :url(../images/design/playbook/design-process.svg) 40% center no-repeat;
+    background :url(../assets/design/playbook/design-process.svg) 40% center no-repeat;
   }
 }
 .deliver {
@@ -2128,7 +2128,7 @@ li {
     }
   }
   .graphic {
-    background: url(../images/design/playbook/deliver-process.svg) 40% center no-repeat;
+    background: url(../assets/design/playbook/deliver-process.svg) 40% center no-repeat;
   }
 }
 

@@ -30,6 +30,7 @@ class PatientCareScoresController < ApplicationController
   # GET /patient_care_scores/1
   # GET /patient_care_scores/1.json
   def show
+    do_grading(@patient_care_score)
   end
 
   # GET /patient_care_scores/new
@@ -69,11 +70,26 @@ class PatientCareScoresController < ApplicationController
     end
     final_hospitals_list = [hospital] + first_five_hospitals
     final_hospitals_list.each_with_index do |h, index|
+      do_grading(h)
       logger.info " Final - #{index}) [id: #{h.id}, zip_code:#{h.zip_code}, city:#{h.city}, state:#{h.state}, name:#{h.hospital_name}, distance:#{h.distance}] "
     end
     @patient_care_scores = final_hospitals_list
     @patient_care_score = hospital
     render :list
+  end
+
+  def do_grading(h)
+    h.grade = 'Poor'
+    h.score = h.hcahps_consistency_score
+    if h.hcahps_consistency_score > 30 then
+      h.grade = 'Fair'
+    end
+    if h.hcahps_consistency_score > 70 then
+      h.grade = 'Good'
+    end
+    if h.hcahps_consistency_score > 90 then
+      h.grade = 'Excellent'
+    end
   end
 
   # PATCH/PUT /patient_care_scores/1

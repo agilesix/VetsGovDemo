@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   resources :contacts
   get '/patient_care_scores/cities', :controller => 'patient_care_scores', :action => 'cities'
   resources :patient_care_scores

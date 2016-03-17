@@ -1,6 +1,161 @@
 // Place all the styles related to the PatientCareScores controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-table.ltable {
-  border: none !important;
+.color-primary-blue {
+  color: #0071bc !important;
+}
+
+div.cl {
+  float: left !important;
+}
+
+div.cr {
+  float: right !important;
+}
+
+.panel {
+  padding: 0 !important;
+}
+
+.panel-header {
+  padding: 1em;
+  background: black;
+  color: white;
+}
+
+.panel-body {
+  padding: 1em;
+}
+
+table.thermo {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+table.thermo > tbody > tr > td {
+  border: none;
+  padding: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.bubble-excellent {
+  position: relative;
+  width: 72px;
+  height: 35px;
+  padding: 3px;
+  color: white;
+  background: #1F8010;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bubble-excellent:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 27px;
+  border-style: solid;
+  border-width: 6px 8px 0;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-color: #1F8010 transparent;
+}
+
+.bubble-good {
+  position: relative;
+  width: 72px;
+  height: 35px;
+  padding: 3px;
+  color: white;
+  background: #1F8010;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bubble-good:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 27px;
+  border-style: solid;
+  border-width: 6px 8px 0;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-color: #1F8010 transparent;
+}
+
+.bubble-poor {
+  position: relative;
+  width: 72px;
+  height: 35px;
+  padding: 3px;
+  color: white;
+  background: #ffb604;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bubble-poor:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 27px;
+  border-style: solid;
+  border-width: 6px 8px 0;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-color: #ffb604 transparent;
+}
+
+.bubble-fair {
+  position: relative;
+  width: 72px;
+  height: 35px;
+  padding: 3px;
+  color: white;
+  background: #ffb604;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bubble-fair:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 27px;
+  border-style: solid;
+  border-width: 6px 8px 0;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-color: #ffb604 transparent;
+}
+
+div.rbar-container {
+  border: none;
+  width: 100%;
+}
+
+canvas#rbar {
+  height: 80px;
+  width: 100%;
 }

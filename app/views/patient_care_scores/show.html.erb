@@ -8,32 +8,60 @@
     </div>
   </div>
 
-  <div class="row">
-    <%# Hospital name block%>
-    <div class="small-5 small-centered columns">
-      <ul class="pricing-table">
-        <li class="title">Hospital Name</li>
-        <li class="price"><%= @patient_care_score.hospital_name.upcase %></li>
-      </ul>
-    </div>
+  <div class="small-12 columns">
+    <div class="row">
 
-    <%#  Address block %>
-    <div class="small-5 small-centered columns">
-      <ul class="pricing-table">
-        <li class="title">Address</li>
-        <li class="price">
-          <%= @patient_care_score.address.upcase %>
-          <br/>
-          <%= @patient_care_score.city.upcase %>
-          , <%= @patient_care_score.state.upcase %> <%= @patient_care_score.zip_code %>
-        </li>
-      </ul>
+      <%# Hospital name block%>
+      <div class="small-6 small-centered columns cl">
+        <div class="panel">
+          <div class="panel-header">Hospital Name</div>
+          <div class="panel-body">
+            <span><%= @patient_care_score.hospital_name.upcase %></span>
+            <br/>
+            <span style="color: #f1f1f1">  . </span>
+          </div>
+        </div>
+      </div>
+
+      <%#  Address block %>
+      <div class="small-6 small-centered columns cr">
+        <div class="panel">
+          <div class="panel-header">Address</div>
+          <div class="panel-body">
+            <span><%= @patient_care_score.address.upcase %></span>
+            <br/>
+            <span><%= @patient_care_score.city.upcase %>
+              ,<%= @patient_care_score.state.upcase %> <%= @patient_care_score.zip_code %>
+            </span>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
   <%# Overrall rating block%>
   <div class="row">
-    <%= @patient_care_score.hcahps_consistency_score %>
+    <div class="small-12 small-centered columns">
+      <div class="panel">
+        <div class="panel-header">Overall Rating</div>
+        <div class="panel-body">
+          <div class="rbar-container">
+            <canvas id="rbar"></canvas>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
+
 </div>
+<script>
+  $(function () {
+    pcs.score = <%= @patient_care_score.hcahps_consistency_score %>;
+    drawRatingGraph($('#rbar').width(), $("#rbar").height());
+  });
+</script>

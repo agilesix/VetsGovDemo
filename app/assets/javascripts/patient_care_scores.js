@@ -3,7 +3,7 @@
 $(function () {
     $('#city-search').autocomplete({
         minLength: 3,
-        source: "patient_care_scores/cities.json",
+        source: "/patient_care_scores/cities.json",
         select: function (event, ui) {
             event.preventDefault();
             $("#city-search").val(ui.item.value);

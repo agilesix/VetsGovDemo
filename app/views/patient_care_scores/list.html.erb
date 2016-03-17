@@ -6,42 +6,39 @@
       Select from the following
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="small-12 medium-12 columns">
-    <table class="ltable" width="100%" cellspacing="0" cellpadding="0">
-      <% @patient_care_scores.each_with_index do |h, index| %>
+  <div class="navigation">
+    <div class="row">
+      <div class="small-12 columns">
 
-          <% if index > 0 then %>
-              <tr>
-                <td colspan="3">
-                  <hr/>
-                </td>
-              </tr>
+        <ul class="small-block-grid-1 medium-block-grid-3 cards small">
+          <% @patient_care_scores.each_with_index do |h, index| %>
+
+              <li>
+                <a href="/patient_care_scores/<%= h.id %>">
+                  <div class="row">
+                    <div class="small-6 columns">
+                      <h5><%= h.hospital_name.split.map { |i| i.capitalize }.join(' ') %></h5>
+                      <span> <%= "#{h.city}, #{h.state}" %> </span>
+                    </div>
+                    <div class="small-3 columns">
+                      <h5><%= h.distance.round %> miles</h5>
+                      <span>From <%= "#{@patient_care_score.city}, #{@patient_care_score.state}" %></span>
+                    </div>
+                    <div class="small-3 columns">
+                      <%= h.hcahps_consistency_score %>
+                      <span>Hospital Rating</span>
+                    </div>
+
+                  </div>
+                </a>
+              </li>
           <% end %>
-          <tr>
-            <td width="50%">
-              <a href="patient_care_scores/<%= h.id %>"><b><%= h.hospital_name.split.map { |i| i.capitalize }.join(' ') %></b></a>
 
-              <br/>
-              <%= "#{@patient_care_score.city}, #{@patient_care_score.state}" %>
-            </td>
-            <td width="25%">
-              <b><%= h.distance.abs %> miles</b>
-              <br/>
-              From <%= "#{@patient_care_score.city}, #{@patient_care_score.state}" %>
-            </td>
-            <td width="25%">
-              <%= h.hcahps_consistency_score %>
-              <br/>
-              Hospital Rating
-            </td>
-          </tr>
-
-
-      <% end %>
-    </table>
+        </ul>
+      </div>
+    </div>
   </div>
+
 
 </div>
 </div>

@@ -206,7 +206,7 @@ function roundRect(ctx, p, x, y, width, height, radius, fill, stroke) {
 function drawRatingGraph(iw, ih) {
     console.log("drawRatingGraph")
     var p = pcs.score;
-    p = 78;
+    //p = 78;
     pcs.containerWidth = Math.floor(iw);
     pcs.containerHeight = Math.floor(ih);
 

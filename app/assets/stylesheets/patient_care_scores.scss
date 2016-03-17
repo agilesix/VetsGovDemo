@@ -59,10 +59,10 @@ table.thermo > tbody > tr > td {
 .bubble-excellent:after {
   content: "";
   position: absolute;
-  bottom: -16px;
+  bottom: -5px;
   left: 27px;
   border-style: solid;
-  border-width: 16px 10px 0;
+  border-width: 6px 8px 0;
   display: block;
   width: 0;
   z-index: 1;
@@ -86,10 +86,10 @@ table.thermo > tbody > tr > td {
 .bubble-good:after {
   content: "";
   position: absolute;
-  bottom: -16px;
+  bottom: -5px;
   left: 27px;
   border-style: solid;
-  border-width: 16px 10px 0;
+  border-width: 6px 8px 0;
   display: block;
   width: 0;
   z-index: 1;
@@ -113,10 +113,10 @@ table.thermo > tbody > tr > td {
 .bubble-poor:after {
   content: "";
   position: absolute;
-  bottom: -16px;
+  bottom: -5px;
   left: 27px;
   border-style: solid;
-  border-width: 16px 10px 0;
+  border-width: 6px 8px 0;
   display: block;
   width: 0;
   z-index: 1;
@@ -140,10 +140,10 @@ table.thermo > tbody > tr > td {
 .bubble-fair:after {
   content: "";
   position: absolute;
-  bottom: -16px;
+  bottom: -5px;
   left: 27px;
   border-style: solid;
-  border-width: 16px 10px 0;
+  border-width: 6px 8px 0;
   display: block;
   width: 0;
   z-index: 1;

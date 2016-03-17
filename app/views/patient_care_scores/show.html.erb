@@ -46,21 +46,9 @@
       <div class="panel">
         <div class="panel-header">Overall Rating</div>
         <div class="panel-body">
-          <table class="thermo">
-            <tr>
-              <td colspan="5" align="middle">
-                <%= @patient_care_score.hcahps_consistency_score %>
-                <div class="progress small-12">
-                  <span class="meter success" style="width: 75%"></span>
-                </div>
-              </td>
-            </tr>
-            <td align="middle">1</td>
-            <td align="middle">25</td>
-            <td align="middle">50</td>
-            <td align="middle">75</td>
-            <td align="middle">100</td>
-          </table>
+          <div class="rbar-container">
+            <canvas id="rbar"></canvas>
+          </div>
 
         </div>
       </div>
@@ -71,3 +59,8 @@
 
 
 </div>
+<script>
+  $(function () {
+    drawRatingGraph(<%= @patient_care_score.hcahps_consistency_score %>);
+  });
+</script>

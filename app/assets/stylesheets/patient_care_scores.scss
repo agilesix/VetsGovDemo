@@ -149,3 +149,13 @@ table.thermo > tbody > tr > td {
   z-index: 1;
   border-color: #ffb604 transparent;
 }
+
+div.rbar-container {
+  border: none;
+  width: 100%;
+}
+
+canvas#rbar {
+  height: 80px;
+  width: 100%;
+}

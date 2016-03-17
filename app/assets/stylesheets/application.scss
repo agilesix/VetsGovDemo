@@ -33,6 +33,8 @@
 @import "foundation/components/tabs";
 //  @import "foundation/components/type";
 @import "foundation/components/visibility";
+@import "foundation/components/progress-bars";
+@import "foundation/components/tooltips";
 //  @import "foundation/components/forms";
 
 // This includes all of the foundation global elements that are needed to work with any of the other files.
@@ -57,3 +59,4 @@
 
 
 @import "va";
+@import "patient_care_scores";

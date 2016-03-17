@@ -21,11 +21,11 @@
                       <span> <%= "#{h.city}, #{h.state}" %> </span>
                     </div>
                     <div class="small-3 columns">
-                      <h5><%= h.distance.round %> miles</h5>
+                      <h5 class="color-primary-blue"><%= h.distance.round %> miles</h5>
                       <span>From <%= "#{@patient_care_score.city}, #{@patient_care_score.state}" %></span>
                     </div>
                     <div class="small-3 columns">
-                      <%= h.hcahps_consistency_score %>
+                      <div class="bubble-<%= h.grade.downcase %>"> <%= h.score %> %</div>
                       <span>Hospital Rating</span>
                     </div>
 

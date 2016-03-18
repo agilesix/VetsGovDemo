@@ -43,7 +43,13 @@
       <div class="splash alternate">
         <div class="row">
           <div class="small-12 columns">
-            <ul class="breadcrumbs" role="menubar" aria-label="Primary"> 
+            <ul class="breadcrumbs" role="menubar" aria-label="Primary">
+              <% if content_for?(:parent2) %>
+                  <li class="parent"><a href="/"><%= yield(:parent2) %></a></li>
+              <% end %>
+              <% if content_for?(:parent1) %>
+                  <li class="parent"><a href="/"><%= yield(:parent1) %></a></li>
+              <% end %>
             <li class="active"><%= yield(:title) %></li>
             </ul>
           </div>

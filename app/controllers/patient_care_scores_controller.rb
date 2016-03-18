@@ -80,7 +80,7 @@ class PatientCareScoresController < ApplicationController
 
   def do_grading(h)
     h.grade = 'Poor'
-    h.score = Math.floor(h.total_performance_score)
+    h.score = h.total_performance_score.floor
     if h.score > 30 then
       h.grade = 'Fair'
     end

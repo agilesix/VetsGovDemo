@@ -61,7 +61,7 @@
 </div>
 <script>
   $(function () {
-    pcs.score = <%= @patient_care_score.hcahps_consistency_score %>;
+    pcs.score = <%= @patient_care_score.score %>;
     drawRatingGraph($('#rbar').width(), $("#rbar").height());
   });
 </script>

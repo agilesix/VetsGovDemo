@@ -7,32 +7,15 @@ one:
     state: VA
     zip_code: 24273
     county_name: NORTON CITY
-    communication_with_nurses_achievement_points: 5
-    communication_with_nurses_improvement_points: 5
-    communication_with_nurses_dimension_score: 5
-    communication_with_doctors_achievement_points: 3
-    communication_with_doctors_improvement_points: 2
-    communication_with_doctors_dimension_score: 3
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 3
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 5
-    pain_management_improvement_points: 6
-    pain_management_dimension_score: 6
-    communication_about_medicines_achievement_points: 3
-    communication_about_medicines_improvement_points: 3
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 4
-    hospital_environment_improvement_points: 4
-    hospital_environment_dimension_score: 4
-    discharge_information_achievement_points: 1
-    discharge_information_improvement_points: 6
-    discharge_information_dimension_score: 6
-    overall_hospital_achievement_points: 2
-    overall_hospital_improvement_points: 3
-    overall_hospital_dimension_score: 3
-    hcahps_base_score: 33
-    hcahps_consistency_score: 20
+    unweighted_patient_care_score: 5
+    weighted_patient_care_score: 5
+    unweighted_patient_experience_score: 5
+    weighted_patient_experience_score: 3
+    unweighted_outcome_score: 2
+    weighted_outcome_score: 3
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 3
+    total_performance_score: 20
     location: 100 Loc
 two:
     id: 2788
@@ -43,32 +26,15 @@ two:
     state: VA
     zip_code: 24266
     county_name: RUSSELL
-    communication_with_nurses_achievement_points: 2
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 2
-    communication_with_doctors_achievement_points: 1
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 1
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 1
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 2
-    discharge_information_improvement_points: 4
-    discharge_information_dimension_score: 4
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 1
-    hcahps_base_score: 12
-    hcahps_consistency_score: 15
+    unweighted_patient_care_score: 2
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 2
+    weighted_patient_experience_score: 1
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 0
+    total_performance_score: 15
     location: 58 Loc
 three:
     id: 2789
@@ -79,32 +45,15 @@ three:
     state: VA
     zip_code: 22801
     county_name: HARRISONBURG CITY
-    communication_with_nurses_achievement_points: 1
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 1
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 1
-    communication_about_medicines_improvement_points: 2
-    communication_about_medicines_dimension_score: 2
-    hospital_environment_achievement_points: 1
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 4
-    discharge_information_improvement_points: 4
-    discharge_information_dimension_score: 4
-    overall_hospital_achievement_points: 2
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 2
-    hcahps_base_score: 10
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 1
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 1
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 16
     location: 2010 Loc
 four:
     id: 2790
@@ -115,32 +64,15 @@ four:
     state: VA
     zip_code: 22601
     county_name: WINCHESTER CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 0
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 0
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 2
-    discharge_information_improvement_points: 0
-    discharge_information_dimension_score: 2
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 2
-    hcahps_consistency_score: 9
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 0
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 9
     location: 1840 Loc
 five:
     id: 2791
@@ -151,32 +83,15 @@ five:
     state: VA
     zip_code: 23507
     county_name: NORFOLK CITY
-    communication_with_nurses_achievement_points: 4
-    communication_with_nurses_improvement_points: 3
-    communication_with_nurses_dimension_score: 4
-    communication_with_doctors_achievement_points: 4
-    communication_with_doctors_improvement_points: 2
-    communication_with_doctors_dimension_score: 4
-    responsiveness_of_hospital_staff_achievement_points: 2
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 2
-    pain_management_achievement_points: 6
-    pain_management_improvement_points: 5
-    pain_management_dimension_score: 6
-    communication_about_medicines_achievement_points: 1
-    communication_about_medicines_improvement_points: 2
-    communication_about_medicines_dimension_score: 2
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 9
-    discharge_information_improvement_points: 8
-    discharge_information_dimension_score: 9
-    overall_hospital_achievement_points: 3
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 3
-    hcahps_base_score: 31
-    hcahps_consistency_score: 18
+    unweighted_patient_care_score: 4
+    weighted_patient_care_score: 3
+    unweighted_patient_experience_score: 4
+    weighted_patient_experience_score: 4
+    unweighted_outcome_score: 2
+    weighted_outcome_score: 4
+    unweighted_efficiency_score: 2
+    weighted_efficiency_score: 0
+    total_performance_score: 18
     location: 600 loc
 six:
     id: 2792
@@ -187,32 +102,15 @@ six:
     state: VA
     zip_code: 22908
     county_name: CHARLOTTESVILLE CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 0
-    communication_with_doctors_achievement_points: 1
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 0
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 8
-    discharge_information_improvement_points: 6
-    discharge_information_dimension_score: 8
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 9
-    hcahps_consistency_score: 10
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 0
+    weighted_patient_experience_score: 1
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 10
     location: JEFFERSON
 seven:
     id: 2793
@@ -223,32 +121,15 @@ seven:
     state: VA
     zip_code: 23505
     county_name: NORFOLK CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 3
-    communication_with_nurses_dimension_score: 3
-    communication_with_doctors_achievement_points: 1
-    communication_with_doctors_improvement_points: 1
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 1
-    pain_management_dimension_score: 1
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 2
-    communication_about_medicines_dimension_score: 2
-    hospital_environment_achievement_points: 2
-    hospital_environment_improvement_points: 2
-    hospital_environment_dimension_score: 2
-    discharge_information_achievement_points: 5
-    discharge_information_improvement_points: 5
-    discharge_information_dimension_score: 5
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 1
-    hcahps_base_score: 16
-    hcahps_consistency_score: 17
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 3
+    unweighted_patient_experience_score: 3
+    weighted_patient_experience_score: 1
+    unweighted_outcome_score: 1
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 17
     location: 150
 eight:
     id: 2794
@@ -259,32 +140,15 @@ eight:
     state: VA
     zip_code: 24592
     county_name: HALIFAX
-    communication_with_nurses_achievement_points: 5
-    communication_with_nurses_improvement_points: 1
-    communication_with_nurses_dimension_score: 5
-    communication_with_doctors_achievement_points: 7
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 7
-    responsiveness_of_hospital_staff_achievement_points: 5
-    responsiveness_of_hospital_staff_improvement_points: 2
-    responsiveness_of_hospital_staff_dimension_score: 5
-    pain_management_achievement_points: 2
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 2
-    communication_about_medicines_achievement_points: 3
-    communication_about_medicines_improvement_points: 2
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 4
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 4
-    discharge_information_achievement_points: 2
-    discharge_information_improvement_points: 0
-    discharge_information_dimension_score: 2
-    overall_hospital_achievement_points: 1
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 1
-    hcahps_base_score: 29
-    hcahps_consistency_score: 20
+    unweighted_patient_care_score: 5
+    weighted_patient_care_score: 1
+    unweighted_patient_experience_score: 5
+    weighted_patient_experience_score: 7
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 7
+    unweighted_efficiency_score: 5
+    weighted_efficiency_score: 2
+    total_performance_score: 20
     location: 2204
 nine:
     id: 2795
@@ -295,32 +159,15 @@ nine:
     state: VA
     zip_code: 23707
     county_name: PORTSMOUTH CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 2
-    communication_with_nurses_dimension_score: 2
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 1
-    pain_management_dimension_score: 1
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 1
-    communication_about_medicines_dimension_score: 1
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 7
-    discharge_information_improvement_points: 6
-    discharge_information_dimension_score: 7
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 1
-    hcahps_base_score: 13
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 2
+    unweighted_patient_experience_score: 2
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 16
     location: 3636
 ten:
     id: 2796
@@ -331,32 +178,15 @@ ten:
     state: VA
     zip_code: 22939
     county_name: AUGUSTA
-    communication_with_nurses_achievement_points: 2
-    communication_with_nurses_improvement_points: 4
-    communication_with_nurses_dimension_score: 4
-    communication_with_doctors_achievement_points: 4
-    communication_with_doctors_improvement_points: 3
-    communication_with_doctors_dimension_score: 4
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 4
-    responsiveness_of_hospital_staff_dimension_score: 4
-    pain_management_achievement_points: 7
-    pain_management_improvement_points: 8
-    pain_management_dimension_score: 8
-    communication_about_medicines_achievement_points: 3
-    communication_about_medicines_improvement_points: 3
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 6
-    discharge_information_improvement_points: 6
-    discharge_information_dimension_score: 6
-    overall_hospital_achievement_points: 3
-    overall_hospital_improvement_points: 4
-    overall_hospital_dimension_score: 4
-    hcahps_base_score: 34
-    hcahps_consistency_score: 17
+    unweighted_patient_care_score: 2
+    weighted_patient_care_score: 4
+    unweighted_patient_experience_score: 4
+    weighted_patient_experience_score: 4
+    unweighted_outcome_score: 3
+    weighted_outcome_score: 4
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 4
+    total_performance_score: 17
     location: 78
 eleven:
     id: 2797
@@ -367,32 +197,15 @@ eleven:
     state: VA
     zip_code: 22701
     county_name: CULPEPER
-    communication_with_nurses_achievement_points: 6
-    communication_with_nurses_improvement_points: 5
-    communication_with_nurses_dimension_score: 6
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 2
-    communication_with_doctors_dimension_score: 2
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 3
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 1
-    pain_management_improvement_points: 3
-    pain_management_dimension_score: 3
-    communication_about_medicines_achievement_points: 4
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 4
-    hospital_environment_achievement_points: 2
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 2
-    discharge_information_achievement_points: 8
-    discharge_information_improvement_points: 7
-    discharge_information_dimension_score: 8
-    overall_hospital_achievement_points: 1
-    overall_hospital_improvement_points: 2
-    overall_hospital_dimension_score: 2
-    hcahps_base_score: 30
-    hcahps_consistency_score: 19
+    unweighted_patient_care_score: 6
+    weighted_patient_care_score: 5
+    unweighted_patient_experience_score: 6
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 2
+    weighted_outcome_score: 2
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 3
+    total_performance_score: 19
     location: 501
 twelve:
     id: 2798
@@ -403,32 +216,15 @@ twelve:
     state: VA
     zip_code: 23860
     county_name: HOPEWELL CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 0
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 0
-    hospital_environment_achievement_points: 2
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 2
-    discharge_information_achievement_points: 3
-    discharge_information_improvement_points: 2
-    discharge_information_dimension_score: 3
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 5
-    hcahps_consistency_score: 14
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 0
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 14
     location: 411
 thirteen:
     id: 2799
@@ -439,32 +235,15 @@ thirteen:
     state: VA
     zip_code: 24501
     county_name: LYNCHBURG CITY
-    communication_with_nurses_achievement_points: 4
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 4
-    communication_with_doctors_achievement_points: 3
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 3
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 2
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 2
-    communication_about_medicines_achievement_points: 3
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 1
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 6
-    discharge_information_improvement_points: 3
-    discharge_information_dimension_score: 6
-    overall_hospital_achievement_points: 2
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 2
-    hcahps_base_score: 21
-    hcahps_consistency_score: 19
+    unweighted_patient_care_score: 4
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 4
+    weighted_patient_experience_score: 3
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 3
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 19
     location: 1920
 fourteen:
     id: 2800
@@ -475,32 +254,15 @@ fourteen:
     state: VA
     zip_code: 22401
     county_name: FREDERICKSBURG CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 1
-    communication_with_nurses_dimension_score: 1
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 1
-    pain_management_dimension_score: 1
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 1
-    communication_about_medicines_dimension_score: 1
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 1
-    discharge_information_improvement_points: 2
-    discharge_information_dimension_score: 2
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 6
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 1
+    unweighted_patient_experience_score: 1
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 16
     location: 1001
 fifteen:
     id: 2801
@@ -511,32 +273,15 @@ fifteen:
     state: VA
     zip_code: 20186
     county_name: FAUQUIER
-    communication_with_nurses_achievement_points: 1
-    communication_with_nurses_improvement_points: 1
-    communication_with_nurses_dimension_score: 1
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 1
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 0
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 1
-    pain_management_dimension_score: 1
-    communication_about_medicines_achievement_points: 1
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 1
-    hospital_environment_achievement_points: 1
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 5
-    discharge_information_improvement_points: 4
-    discharge_information_dimension_score: 5
-    overall_hospital_achievement_points: 2
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 2
-    hcahps_base_score: 12
-    hcahps_consistency_score: 18
+    unweighted_patient_care_score: 1
+    weighted_patient_care_score: 1
+    unweighted_patient_experience_score: 1
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 1
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 0
+    total_performance_score: 18
     location: 500
 sixteen:
     id: 2802
@@ -547,32 +292,15 @@ sixteen:
     state: VA
     zip_code: 24014
     county_name: ROANOKE CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 0
-    communication_with_nurses_dimension_score: 0
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 2
-    communication_about_medicines_improvement_points: 1
-    communication_about_medicines_dimension_score: 2
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 3
-    discharge_information_improvement_points: 0
-    discharge_information_dimension_score: 3
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 9
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 0
+    unweighted_patient_experience_score: 0
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 1
+    total_performance_score: 16
     location: 1906
 seventeen:
     id: 2803
@@ -583,32 +311,15 @@ seventeen:
     state: VA
     zip_code: 23298
     county_name: RICHMOND CITY
-    communication_with_nurses_achievement_points: 3
-    communication_with_nurses_improvement_points: 2
-    communication_with_nurses_dimension_score: 3
-    communication_with_doctors_achievement_points: 2
-    communication_with_doctors_improvement_points: 1
-    communication_with_doctors_dimension_score: 2
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 4
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 4
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 9
-    discharge_information_improvement_points: 7
-    discharge_information_dimension_score: 9
-    overall_hospital_achievement_points: 3
-    overall_hospital_improvement_points: 2
-    overall_hospital_dimension_score: 3
-    hcahps_base_score: 22
-    hcahps_consistency_score: 14
+    unweighted_patient_care_score: 3
+    weighted_patient_care_score: 2
+    unweighted_patient_experience_score: 3
+    weighted_patient_experience_score: 2
+    unweighted_outcome_score: 1
+    weighted_outcome_score: 2
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 14
     location: 1250
 eighteen:
     id: 2804
@@ -619,32 +330,15 @@ eighteen:
     state: VA
     zip_code: 22630
     county_name: WARREN
-    communication_with_nurses_achievement_points: 5
-    communication_with_nurses_improvement_points: 5
-    communication_with_nurses_dimension_score: 5
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 1
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 1
-    responsiveness_of_hospital_staff_improvement_points: 3
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 2
-    pain_management_dimension_score: 2
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 0
-    communication_about_medicines_dimension_score: 0
-    hospital_environment_achievement_points: 2
-    hospital_environment_improvement_points: 2
-    hospital_environment_dimension_score: 2
-    discharge_information_achievement_points: 0
-    discharge_information_improvement_points: 0
-    discharge_information_dimension_score: 0
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 13
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 5
+    weighted_patient_care_score: 5
+    unweighted_patient_experience_score: 5
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 1
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 1
+    weighted_efficiency_score: 3
+    total_performance_score: 16
     location: 1000
 nineteen:
     id: 2805
@@ -655,32 +349,15 @@ nineteen:
     state: VA
     zip_code: 23413
     county_name: NORTHAMPTON
-    communication_with_nurses_achievement_points: 1
-    communication_with_nurses_improvement_points: 3
-    communication_with_nurses_dimension_score: 3
-    communication_with_doctors_achievement_points: 2
-    communication_with_doctors_improvement_points: 2
-    communication_with_doctors_dimension_score: 2
-    responsiveness_of_hospital_staff_achievement_points: 1
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 2
-    pain_management_improvement_points: 4
-    pain_management_dimension_score: 4
-    communication_about_medicines_achievement_points: 4
-    communication_about_medicines_improvement_points: 5
-    communication_about_medicines_dimension_score: 5
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 0
-    discharge_information_improvement_points: 4
-    discharge_information_dimension_score: 4
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 1
-    hcahps_base_score: 21
-    hcahps_consistency_score: 12
+    unweighted_patient_care_score: 1
+    weighted_patient_care_score: 3
+    unweighted_patient_experience_score: 3
+    weighted_patient_experience_score: 2
+    unweighted_outcome_score: 2
+    weighted_outcome_score: 2
+    unweighted_efficiency_score: 1
+    weighted_efficiency_score: 0
+    total_performance_score: 12
     location: 9507
 twenty:
     id: 2806
@@ -691,32 +368,15 @@ twenty:
     state: VA
     zip_code: 24354
     county_name: SMYTH
-    communication_with_nurses_achievement_points: 6
-    communication_with_nurses_improvement_points: 6
-    communication_with_nurses_dimension_score: 6
-    communication_with_doctors_achievement_points: 5
-    communication_with_doctors_improvement_points: 4
-    communication_with_doctors_dimension_score: 5
-    responsiveness_of_hospital_staff_achievement_points: 5
-    responsiveness_of_hospital_staff_improvement_points: 5
-    responsiveness_of_hospital_staff_dimension_score: 5
-    pain_management_achievement_points: 6
-    pain_management_improvement_points: 5
-    pain_management_dimension_score: 6
-    communication_about_medicines_achievement_points: 4
-    communication_about_medicines_improvement_points: 5
-    communication_about_medicines_dimension_score: 5
-    hospital_environment_achievement_points: 5
-    hospital_environment_improvement_points: 5
-    hospital_environment_dimension_score: 5
-    discharge_information_achievement_points: 6
-    discharge_information_improvement_points: 7
-    discharge_information_dimension_score: 7
-    overall_hospital_achievement_points: 2
-    overall_hospital_improvement_points: 4
-    overall_hospital_dimension_score: 4
-    hcahps_base_score: 43
-    hcahps_consistency_score: 20
+    unweighted_patient_care_score: 6
+    weighted_patient_care_score: 6
+    unweighted_patient_experience_score: 6
+    weighted_patient_experience_score: 5
+    unweighted_outcome_score: 4
+    weighted_outcome_score: 5
+    unweighted_efficiency_score: 5
+    weighted_efficiency_score: 5
+    total_performance_score: 20
     location: 245
 twentyone:
     id: 2807
@@ -727,32 +387,15 @@ twentyone:
     state: VA
     zip_code: 22304
     county_name: ALEXANDRIA CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 3
-    communication_with_nurses_dimension_score: 3
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 0
-    communication_with_doctors_dimension_score: 0
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 2
-    pain_management_dimension_score: 2
-    communication_about_medicines_achievement_points: 2
-    communication_about_medicines_improvement_points: 4
-    communication_about_medicines_dimension_score: 4
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 0
-    discharge_information_improvement_points: 4
-    discharge_information_dimension_score: 4
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 0
-    hcahps_base_score: 15
-    hcahps_consistency_score: 13
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 3
+    unweighted_patient_experience_score: 3
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 0
+    weighted_outcome_score: 0
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 13
     location: 4320
 twentytwo:
     id: 2808
@@ -763,32 +406,15 @@ twentytwo:
     state: VA
     zip_code: 23602
     county_name: NEWPORT NEWS CITY
-    communication_with_nurses_achievement_points: 0
-    communication_with_nurses_improvement_points: 3
-    communication_with_nurses_dimension_score: 3
-    communication_with_doctors_achievement_points: 2
-    communication_with_doctors_improvement_points: 2
-    communication_with_doctors_dimension_score: 2
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 2
-    responsiveness_of_hospital_staff_dimension_score: 2
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 2
-    pain_management_dimension_score: 2
-    communication_about_medicines_achievement_points: 0
-    communication_about_medicines_improvement_points: 3
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 1
-    hospital_environment_dimension_score: 1
-    discharge_information_achievement_points: 8
-    discharge_information_improvement_points: 7
-    discharge_information_dimension_score: 8
-    overall_hospital_achievement_points: 0
-    overall_hospital_improvement_points: 2
-    overall_hospital_dimension_score: 2
-    hcahps_base_score: 23
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 0
+    weighted_patient_care_score: 3
+    unweighted_patient_experience_score: 3
+    weighted_patient_experience_score: 2
+    unweighted_outcome_score: 2
+    weighted_outcome_score: 2
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 2
+    total_performance_score: 16
     location: 2
 twentythree:
     id: 2809
@@ -799,32 +425,15 @@ twentythree:
     state: VA
     zip_code: 24073
     county_name: MONTGOMERY
-    communication_with_nurses_achievement_points: 4
-    communication_with_nurses_improvement_points: 2
-    communication_with_nurses_dimension_score: 4
-    communication_with_doctors_achievement_points: 2
-    communication_with_doctors_improvement_points: 3
-    communication_with_doctors_dimension_score: 3
-    responsiveness_of_hospital_staff_achievement_points: 3
-    responsiveness_of_hospital_staff_improvement_points: 0
-    responsiveness_of_hospital_staff_dimension_score: 3
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 1
-    pain_management_dimension_score: 1
-    communication_about_medicines_achievement_points: 4
-    communication_about_medicines_improvement_points: 4
-    communication_about_medicines_dimension_score: 4
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 0
-    hospital_environment_dimension_score: 0
-    discharge_information_achievement_points: 4
-    discharge_information_improvement_points: 3
-    discharge_information_dimension_score: 4
-    overall_hospital_achievement_points: 3
-    overall_hospital_improvement_points: 0
-    overall_hospital_dimension_score: 3
-    hcahps_base_score: 22
-    hcahps_consistency_score: 19
+    unweighted_patient_care_score: 4
+    weighted_patient_care_score: 2
+    unweighted_patient_experience_score: 4
+    weighted_patient_experience_score: 2
+    unweighted_outcome_score: 3
+    weighted_outcome_score: 3
+    unweighted_efficiency_score: 3
+    weighted_efficiency_score: 0
+    total_performance_score: 19
     location: 2900
 twentyfour:
     id: 2810
@@ -835,32 +444,15 @@ twentyfour:
     state: VA
     zip_code: 20176
     county_name: LOUDOUN
-    communication_with_nurses_achievement_points: 5
-    communication_with_nurses_improvement_points: 5
-    communication_with_nurses_dimension_score: 5
-    communication_with_doctors_achievement_points: 0
-    communication_with_doctors_improvement_points: 1
-    communication_with_doctors_dimension_score: 1
-    responsiveness_of_hospital_staff_achievement_points: 0
-    responsiveness_of_hospital_staff_improvement_points: 1
-    responsiveness_of_hospital_staff_dimension_score: 1
-    pain_management_achievement_points: 0
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 0
-    communication_about_medicines_achievement_points: 2
-    communication_about_medicines_improvement_points: 3
-    communication_about_medicines_dimension_score: 3
-    hospital_environment_achievement_points: 0
-    hospital_environment_improvement_points: 2
-    hospital_environment_dimension_score: 2
-    discharge_information_achievement_points: 9
-    discharge_information_improvement_points: 9
-    discharge_information_dimension_score: 9
-    overall_hospital_achievement_points: 3
-    overall_hospital_improvement_points: 3
-    overall_hospital_dimension_score: 3
-    hcahps_base_score: 24
-    hcahps_consistency_score: 16
+    unweighted_patient_care_score: 5
+    weighted_patient_care_score: 5
+    unweighted_patient_experience_score: 5
+    weighted_patient_experience_score: 0
+    unweighted_outcome_score: 1
+    weighted_outcome_score: 1
+    unweighted_efficiency_score: 0
+    weighted_efficiency_score: 1
+    total_performance_score: 16
     location: 44045
 twentyfive:
     id: 2811
@@ -871,30 +463,13 @@ twentyfive:
     state: VA
     zip_code: 23434
     county_name: SUFFOLK CITY
-    communication_with_nurses_achievement_points: 4
-    communication_with_nurses_improvement_points: 1
-    communication_with_nurses_dimension_score: 4
-    communication_with_doctors_achievement_points: 5
-    communication_with_doctors_improvement_points: 4
-    communication_with_doctors_dimension_score: 5
-    responsiveness_of_hospital_staff_achievement_points: 4
-    responsiveness_of_hospital_staff_improvement_points: 2
-    responsiveness_of_hospital_staff_dimension_score: 4
-    pain_management_achievement_points: 4
-    pain_management_improvement_points: 0
-    pain_management_dimension_score: 4
-    communication_about_medicines_achievement_points: 5
-    communication_about_medicines_improvement_points: 4
-    communication_about_medicines_dimension_score: 5
-    hospital_environment_achievement_points: 4
-    hospital_environment_improvement_points: 2
-    hospital_environment_dimension_score: 4
-    discharge_information_achievement_points: 10
-    discharge_information_improvement_points: 9
-    discharge_information_dimension_score: 10
-    overall_hospital_achievement_points: 5
-    overall_hospital_improvement_points: 1
-    overall_hospital_dimension_score: 5
-    hcahps_base_score: 41
-    hcahps_consistency_score: 20
+    unweighted_patient_care_score: 4
+    weighted_patient_care_score: 1
+    unweighted_patient_experience_score: 4
+    weighted_patient_experience_score: 5
+    unweighted_outcome_score: 4
+    weighted_outcome_score: 5
+    unweighted_efficiency_score: 4
+    weighted_efficiency_score: 2
+    total_performance_score: 20
     location: 2800

@@ -80,14 +80,14 @@ class PatientCareScoresController < ApplicationController
 
   def do_grading(h)
     h.grade = 'Poor'
-    h.score = h.hcahps_consistency_score
-    if h.hcahps_consistency_score > 30 then
+    h.score = h.total_performance_score
+    if h.total_performance_score > 30 then
       h.grade = 'Fair'
     end
-    if h.hcahps_consistency_score > 70 then
+    if h.total_performance_score > 70 then
       h.grade = 'Good'
     end
-    if h.hcahps_consistency_score > 90 then
+    if h.total_performance_score > 90 then
       h.grade = 'Excellent'
     end
   end
@@ -120,10 +120,5 @@ class PatientCareScoresController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_patient_care_score
       @patient_care_score = PatientCareScore.find(params[:id])
-    end
-
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def patient_care_score_params
-      params.require(:patient_care_score).permit(:provider_number, :hospital_name, :address, :city, :state, :zip_code, :county_name, :communication_with_nurses_achievement_points, :communication_with_nurses_improvement_points, :communication_with_nurses_dimension_score, :communication_with_doctors_achievement_points, :communication_with_doctors_improvement_points, :communication_with_doctors_dimension_score, :responsiveness_of_hospital_staff_achievement_points, :responsiveness_of_hospital_staff_improvement_points, :responsiveness_of_hospital_staff_dimension_score, :pain_management_achievement_points, :pain_management_improvement_points, :pain_management_dimension_score, :communication_about_medicines_achievement_points, :communication_about_medicines_improvement_points, :communication_about_medicines_dimension_score, :hospital_environment_achievement_points, :hospital_environment_improvement_points, :hospital_environment_dimension_score, :discharge_information_achievement_points, :discharge_information_improvement_points, :discharge_information_dimension_score, :overall_hospital_achievement_points, :overall_hospital_improvement_points, :overall_hospital_dimension_score, :hcahps_base_score, :hcahps_consistency_score, :location)
     end
 end

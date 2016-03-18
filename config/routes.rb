@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  
+# You can have the root of your site routed with "root"
+   
+
+
   resources :contacts
   get '/patient_care_scores/cities', :controller => 'patient_care_scores', :action => 'cities'
   resources :patient_care_scores
@@ -6,8 +11,8 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-   root 'patient_care_scores#index'
+  root 'patient_care_scores#index'
+  post '/', :controller => 'patient_care_scores', :action => 'create'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

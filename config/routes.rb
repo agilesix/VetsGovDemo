@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :contacts
   get '/patient_care_scores/cities', :controller => 'patient_care_scores', :action => 'cities'
+  post '/', :controller => 'patient_care_scores', :action => 'create'
+  get '/:id', :controller => 'patient_care_scores', :action => 'show'
   resources :patient_care_scores
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -14,7 +14,7 @@
           <% @patient_care_scores.each_with_index do |h, index| %>
 
               <li>
-                <a href="/patient_care_scores/<%= h.id %>">
+                <a href="<%= h.id %>">
                   <div class="row">
                     <div class="small-6 columns">
                       <h5><%= h.hospital_name.split.map { |i| i.capitalize }.join(' ') %></h5>

@@ -1,4 +1,6 @@
 <%= content_for(:title, "#{@patient_care_score.city}, #{@patient_care_score.state}") %>
+<%= content_for(:parent1, "Results - #{@patient_care_score.city}, #{@patient_care_score.state}") %>
+<%= content_for(:parent2, "Value Based Hospitals") %>
 <div class="primary ">
 
   <div class="row">
@@ -61,7 +63,7 @@
 </div>
 <script>
   $(function () {
-    pcs.score = <%= @patient_care_score.hcahps_consistency_score %>;
+    pcs.score = <%= @patient_care_score.score %>;
     drawRatingGraph($('#rbar').width(), $("#rbar").height());
   });
 </script>

@@ -8,7 +8,7 @@ var pcs = {
         canvas.style.width = pcs.containerWidth + 'px';
         canvas.style.height = pcs.containerHeight + 'px';
         pcs.cellWidth = Math.floor(pcs.containerWidth / 100); //width of a cell
-        console.log("setting canvas size [width : " + pcs.containerWidth + ", height:" + pcs.containerHeight + "]");
+        //console.log("setting canvas size [width : " + pcs.containerWidth + ", height:" + pcs.containerHeight + "]");
     }
 }
 
@@ -194,7 +194,7 @@ function roundRect(ctx, p, x, y, width, height, radius, fill, stroke) {
         ctx.stroke();
     }
 
-    var tx = x + Math.floor(width / 4);
+    var tx = x + Math.floor(width / 5);
     var ty = y + Math.floor(height / 2) + 4;
     ctx.font = "12px Verdana";
     ctx.fillStyle = "#FFFFFF";
@@ -204,7 +204,7 @@ function roundRect(ctx, p, x, y, width, height, radius, fill, stroke) {
 
 
 function drawRatingGraph(iw, ih) {
-    console.log("drawRatingGraph")
+    //console.log("drawRatingGraph")
     var p = pcs.score;
     //p = 78;
     pcs.containerWidth = Math.floor(iw);
@@ -262,14 +262,22 @@ function drawRatingGraph(iw, ih) {
         //draw circle
         if (p > 0) {
             ctx.fillStyle = pcs.colors[p];
+            //ctx.font = "12px Verdana";
+            //ctx.fillStyle = "#FFFFFF";
+            var tw = ctx.measureText(p + "%").width
+            //console.log("tw = " + tw);
+
             x = p * w
             ctx.arc(x + Math.floor(w / 2), y + Math.floor(h / 2), h, 0, 2 * Math.PI);
             ctx.fill();
-            var bw = 5 * w;
+            var br = 3;
+            var bw = tw + br + br + br;//5 *  (w < 8 ? 8 : w) ;
             var bh = 25;
             var bx = x - bw / 2;
             var by = y - bh - padding;
-            var br = 3;
+
+
+            //console.log("w=" + w + ", h=" + h + ", bx=" + bx + ", by=" + by);
             roundRect(ctx, p, bx, by, bw, bh, br, true, false);
         }
 

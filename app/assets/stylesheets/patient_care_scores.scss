@@ -19,7 +19,7 @@ div.cr {
 
 .panel-header {
   padding: 1em;
-  background: black;
+  background: #323A45;
   color: white;
 }
 
@@ -158,4 +158,8 @@ div.rbar-container {
 canvas#rbar {
   height: 80px;
   width: 100%;
+}
+
+li.parent a {
+  color: white !important;
 }

@@ -17,25 +17,25 @@ ActiveRecord::Schema.define(version: 20160318164321) do
   enable_extension "plpgsql"
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "email",      null: false
-    t.string   "message",    null: false
-    t.date     "sent_on"
+    t.string "email", null: false
+    t.string "message", null: false
+    t.date "sent_on"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "first_name"
-    t.string   "last_name"
+    t.string "first_name"
+    t.string "last_name"
   end
 
   create_table "patient_care_scores", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer  "provider_number"
-    t.string   "hospital_name"
-    t.string   "address"
-    t.string   "city"
-    t.string   "state"
-    t.integer  "zip_code"
-    t.string   "county_name"
+    t.integer "provider_number"
+    t.string "hospital_name"
+    t.string "address"
+    t.string "city"
+    t.string "state"
+    t.integer "zip_code"
+    t.string "county_name"
     t.float "unweighted_patient_care_score"
     t.float "weighted_patient_care_score"
     t.float "unweighted_patient_experience_score"
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 20160318164321) do
     t.float "unweighted_efficiency_score"
     t.float "weighted_efficiency_score"
     t.float "total_performance_score"
-    t.string   "location"
+    t.string "location"
   end
 
   add_index "patient_care_scores", ["city"], name: "index_patient_care_scores_on_city", using: :btree
@@ -54,9 +54,9 @@ ActiveRecord::Schema.define(version: 20160318164321) do
   add_index "patient_care_scores", ["zip_code"], name: "index_patient_care_scores_on_zip_code", using: :btree
 
   create_table "places", force: :cascade do |t|
-    t.string   "city"
-    t.string   "state"
-    t.integer  "zip"
+    t.string "city"
+    t.string "state"
+    t.integer "zip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

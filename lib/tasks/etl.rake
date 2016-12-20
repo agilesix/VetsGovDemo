@@ -33,17 +33,17 @@ namespace :etl do
       o.zip_code = rec.zip_code
       o.county_name = rec.county_name
 
-      o.unweighted_patient_care_score = transform_score(rec.unweighted_normalized_clinical_process_of_care_domain_score)
-      o.weighted_patient_care_score = transform_score(rec.weighted_clinical_process_of_care_domain_score)
+      o.unweighted_patient_care_score = transform_score(rec.unweighted_normalized_clinical_care__process_domain_score)
+      o.weighted_patient_care_score = transform_score(rec.weighted_clinical_care__process_domain_score)
 
-      o.unweighted_patient_experience_score = transform_score(rec.unweighted_patient_experience_of_care_domain_score)
-      o.weighted_patient_experience_score = transform_score(rec.weighted_patient_experience_of_care_domain_score)
+      o.unweighted_patient_experience_score = transform_score(rec.unweighted_patient_and_caregiver_centered_experience_of_carecare_coordination_domain_score)
+      o.weighted_patient_experience_score = transform_score(rec.weighted_patient_and_caregiver_centered_experience_of_carecare_coordination_domain_score)
 
-      o.unweighted_outcome_score = transform_score(rec.unweighted_normalized_outcome_domain_score)
-      o.weighted_outcome_score = transform_score(rec.weighted_outcome_domain_score)
-      o.unweighted_efficiency_score = transform_score(rec.unweighted_normalized_efficiency_domain_score)
+      o.unweighted_outcome_score = transform_score(rec.unweighted_normalized_clinical_care__outcomes_domain_score)
+      o.weighted_outcome_score = transform_score(rec.weighted_normalized_clinical_care__outcomes_domain_score)
+      o.unweighted_efficiency_score = transform_score(rec.unweighted_normalized_efficiency_and_cost_reduction_domain_score)
 
-      o.weighted_efficiency_score = transform_score(rec.weighted_efficiency_domain_score)
+      o.weighted_efficiency_score = transform_score(rec.weighted_efficiency_and_cost_reduction_domain_score)
       o.total_performance_score = transform_score(rec.total_performance_score)
       o.location = transform_score(rec.location)
       places["#{o.city},#{o.state}"] = Place.new(:city => o.city, :state => o.state, :zip => o.zip_code)
